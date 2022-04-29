@@ -1,0 +1,1406 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-OK6IZWlYcNCIf6IuE5bGqAXE7k29nTS+lmNILcaRxHusCPjgNy/6WsKt8fSsrKwZZX7zZjYxlYn1guNNXcnjHA==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-38ae8865695870d0887fa22e1396c6a8.css" />
+  
+    <link crossorigin="anonymous" media="all" integrity="sha512-G1hJqw/pzfTYTgSNCXvPGSGx9Oja8jPgTrr/oADHGVkXmpgLPT7ptHWIW2oHWzjPtcrPTd9MZKGOShBo6Kr/9A==" rel="stylesheet" href="https://github.githubassets.com/assets/behaviors-1b5849ab0fe9cdf4d84e048d097bcf19.css" />
+    
+    
+    
+    <link crossorigin="anonymous" media="all" integrity="sha512-arEY8+MTYKPYCwIvA9KH8TOf7VLJPv8oBvIPSoNBluk99DQGbQHCyURhoOlD5m+FWGEPOXNZ/8sERlvsML+TLA==" rel="stylesheet" href="https://github.githubassets.com/assets/github-6ab118f3e31360a3d80b022f03d287f1.css" />
+
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-DHpNa+QkQaUCk1eji+SQGDsKa8B63teT5nbKT3/TQ38T2hEDfT9B9OddmUKcMnQ8GaECHElNcJkpGhIThksyXA==" type="application/javascript" src="https://github.githubassets.com/assets/environment-0c7a4d6b.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-Yj+GQgNz7KtbN4T31GXUcAwqQEyFjxui4i+K0IRzEVf6q/LGflPOcDeUfSynXZY5An2BwN9LZjyJCv6d60VJNQ==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-frameworks-623f8642.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-FVF65mHM2YFptEQy7M1jb/b/nUGKMPy7DTaKEX27387NLyYBDba3/N0lmPi5rtj3LXLMYUfoW+Zp4UBO9IoGwg==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-vendor-15517ae6.js"></script>
+  
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-9s0o9HusjaKciUh3VkWjfLedaVnLoWrUgCB0HERc6sLtYrXOGqzj68/jjphqCawbexLaVDHv08CTTciAvxPFtg==" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-f6cd28f4.js"></script>
+  
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-BUDbrXZbK9QorUrf0KoEbZAJhTnz+BqMm10bqZCK6w5Hwy7YaORQ4F4DXhLkAVTvaJhNhxxeXgmgJLP0TB7TOw==" type="application/javascript" data-module-id="./chunk-advanced.js" data-src="https://github.githubassets.com/assets/chunk-advanced-0540dbad.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-5tWKSr7mhAzSh4Sx5YRFgKftdGxKwHKnOGYw5DlxjHhkQVURYFU3Bk5IMOGMKuAiJTlC3OXYM3xzGcyjzuEFQQ==" type="application/javascript" data-module-id="./chunk-animate-on-scroll.js" data-src="https://github.githubassets.com/assets/chunk-animate-on-scroll-e6d58a4a.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-0MZorw3oXnKy5eeSwQ9xGrKU4hxQeCXxmyxhneIHNhDIqu8vWh8mHss9FlC75Xd/bPWxFDCvdOo57tnTR46nbA==" type="application/javascript" data-module-id="./chunk-codemirror.js" data-src="https://github.githubassets.com/assets/chunk-codemirror-d0c668af.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-M6W/sGLOuJXCIkw+doDl6zl7J9q2DmqdwftQCtyEiZM/UJNGRVQdyKwI/PAMxD12se/wCx3ZcyJs9nz0o0OSVw==" type="application/javascript" data-module-id="./chunk-color-modes.js" data-src="https://github.githubassets.com/assets/chunk-color-modes-33a5bfb0.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-71HZu1T5JWqRNF9wrm2NXZAqYVvzxZ8Dvor5U5l/LuEBbGCBX57Sny60Rj+qUZZAvEBGFlNsz179DEn2HFwgVA==" type="application/javascript" data-module-id="./chunk-confetti.js" data-src="https://github.githubassets.com/assets/chunk-confetti-ef51d9bb.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-P29U0lNmhUj353VrCWp6czdhNpMtF70xVKf4GBGFVKCoqGtxp0sywAM8/46+iC0kdFiRvM13EBvDnq6oyWRwiw==" type="application/javascript" data-module-id="./chunk-contributions-spider-graph.js" data-src="https://github.githubassets.com/assets/chunk-contributions-spider-graph-3f6f54d2.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-arflMFcVzVAYaP2n7m7gklPChWsVsCDtRPav2Cb6bqLeJf8pgbojWJ3EseKXILCIqfxl/v6arBduZ9SLmpMEZw==" type="application/javascript" data-module-id="./chunk-delayed-loading-element.js" data-src="https://github.githubassets.com/assets/chunk-delayed-loading-element-6ab7e530.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-6j/oSF+kbW+yetNPvI684VzAu9pzug6Vj2h+3u1LdCuRhR4jnuiHZfeQKls3nxcT/S3H+oIt7FtigE/aeoj+gg==" type="application/javascript" data-module-id="./chunk-drag-drop.js" data-src="https://github.githubassets.com/assets/chunk-drag-drop-ea3fe848.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-VSSd+Yzi2iMS+pibY6hD/WdypxAEdob5F2RMKxuKcAHS2EpFYJPeTXoVxt0NXg03tfj2dka2mEtHS+vjpYSaDw==" type="application/javascript" data-module-id="./chunk-edit-hook-secret-element.js" data-src="https://github.githubassets.com/assets/chunk-edit-hook-secret-element-55249df9.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-ErqZFlIt7zIbLoZHvwfq9Zjo5zo+Y1A410nePDGvK+WVTVP10iNTfoqdOOSZNSy1gtLKIWDIIiOV30lr6zUJCA==" type="application/javascript" data-module-id="./chunk-edit.js" data-src="https://github.githubassets.com/assets/chunk-edit-12ba9916.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-aiqMIGGZGo8AQMjcoImKPMTsZVVRl6htCSY7BpRmpGPG/AF+Wq+P/Oj/dthWQOIk9cCNMPEas7O2zAR6oqn0tA==" type="application/javascript" data-module-id="./chunk-emoji-picker-element.js" data-src="https://github.githubassets.com/assets/chunk-emoji-picker-element-6a2a8c20.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-pyMtBe0iN5jUu1XXnpodO2HUF6HtgHFSW7xU1hiqWn0IrSun5a14jZWjqfSQNbj7lAyY9xBA3dNsyydapPhobg==" type="application/javascript" data-module-id="./chunk-failbot.js" data-src="https://github.githubassets.com/assets/chunk-failbot-a7232d05.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-sy0KBzl3Hruew+orJ1/E4cyuUixtV0uS03SSHpYRzhAepWejugyPs3AwHpQ+Em5HaMfd1MPz/M4+xEaFbQc5gA==" type="application/javascript" data-module-id="./chunk-feature-callout-element.js" data-src="https://github.githubassets.com/assets/chunk-feature-callout-element-b32d0a07.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-h8LRqLfdvdK2/kSKj8JYy6jyBdlTywxL4lqwV6OVOd3SCPRgUJ4/r3KHFQZPuYw0G7AWWhJY/IoitYLvAWFe5Q==" type="application/javascript" data-module-id="./chunk-filter-input.js" data-src="https://github.githubassets.com/assets/chunk-filter-input-87c2d1a8.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-ZDEs2KxFQg2a+jrEHbGKTNtzB+AQK3msBhv/KXLFiX9sV8vJaa9+9lpIW/kWd9JKtpJ63vTC/wuOJo7QJTbKKg==" type="application/javascript" data-module-id="./chunk-get-repo-element.js" data-src="https://github.githubassets.com/assets/chunk-get-repo-element-64312cd8.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-hDiTAZNldjiUNPk5eNthz6zUVY57FFqFU+n2D7WRYygzCxbDtwO9ODKDsEXxYb8kAMI7gTC8/QR3dXtHVCVgcA==" type="application/javascript" data-module-id="./chunk-insights-query.js" data-src="https://github.githubassets.com/assets/chunk-insights-query-84389301.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-SBLYXQ5tCZ/pcd1gcxrF4aTurb6Pi6aXi+k8JwE7zDNc0RmTnAPUdQ0a4/c9kt8sIhRmc8UyY/dDz+3r1os5MA==" type="application/javascript" data-module-id="./chunk-invitations.js" data-src="https://github.githubassets.com/assets/chunk-invitations-4812d85d.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-kHBm6CHcorsoWgbEfXx9ONevjreBpcPig/6CwUA1AEDHRHq5fuqHSKAFVbS+ri41o89ud/eW9mdT8gdg7bvEyQ==" type="application/javascript" data-module-id="./chunk-jump-to.js" data-src="https://github.githubassets.com/assets/chunk-jump-to-907066e8.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-VtdawM/OSsu+d6v25ZY6UcQa/GGLAStSESjsqdEwx+ey88GNYGkQ24o+JFFo4lY+7wLMRf7aCrLxkA5SquBoNQ==" type="application/javascript" data-module-id="./chunk-launch-code-element.js" data-src="https://github.githubassets.com/assets/chunk-launch-code-element-56d75ac0.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-RR5Uk+KE9M/CsqLcmgReChS7ZDjm8gxcOnDYWWkMdeTsrpW/xDlJHQEgUfuEC6HJXfyPNcW+oBTHqMnucNYGTQ==" type="application/javascript" data-module-id="./chunk-line-chart.js" data-src="https://github.githubassets.com/assets/chunk-line-chart-451e5493.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-RduaLAviB2ygvRK/eX5iwzYO43ie7svrJ0rYJs06x7XqpRl/IK8PPBscBWM9Moo5Z86DK2iRLE2+aR7TJ5Uc2Q==" type="application/javascript" data-module-id="./chunk-metric-selection-element.js" data-src="https://github.githubassets.com/assets/chunk-metric-selection-element-45db9a2c.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-7hZ031ngiF36wGsfcoyyCWTqwYxjX+qeTLtCV7CJ+IO+wzkzCm1RoR3WzWczfWmwLNqr+Hu3kQOgkBaGn4ntWQ==" type="application/javascript" data-module-id="./chunk-notification-list-focus.js" data-src="https://github.githubassets.com/assets/chunk-notification-list-focus-ee1674df.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-GntjGfOwMXsNQc5gxmzT306dC63LK08Oq5HrYuzBerIW2O/B/z8qHbjDImFUB4Zzu8kvKV1xU9BmU7CaLLeNeg==" type="application/javascript" data-module-id="./chunk-premium-runners.js" data-src="https://github.githubassets.com/assets/chunk-premium-runners-1a7b6319.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-oaK5DHO3+lQ/luphbKbJlYucI+1wdb1ckzLGh1p3HjnhMptUGr7FmMNwVBUGLpkHyIbve+fYuX9Ct1wzKH+6ag==" type="application/javascript" data-module-id="./chunk-presence-avatars.js" data-src="https://github.githubassets.com/assets/chunk-presence-avatars-a1a2b90c.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-ma0OOy3nj0c1cqBx0BkcmIFsLqcSZ+MIukQxyEFM/OWTzZpG+QMgOoWPAHZz43M6fyjAUG1jH6c/6LPiiKPCyw==" type="application/javascript" data-module-id="./chunk-profile-pins-element.js" data-src="https://github.githubassets.com/assets/chunk-profile-pins-element-99ad0e3b.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-hgoSKLTlL8I3IWr/TLONCU+N4kdCtdrHCrrud4NKhgRlLrTw0XUPhqBaDdZUiFSzDQRw/nFQ1kw2VeTm0g9+lA==" type="application/javascript" data-module-id="./chunk-profile.js" data-src="https://github.githubassets.com/assets/chunk-profile-860a1228.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-W/CGm7ARGkQrOSmTAUvHx6XJH3sPfyUEY2kRDWT84K5WU9i2fNXvLxdipvaaMTQbR6AjSSxrQOBj6lR1kzgB0Q==" type="application/javascript" data-module-id="./chunk-readme-toc-element.js" data-src="https://github.githubassets.com/assets/chunk-readme-toc-element-5bf0869b.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-DzzdRhToySuRxHkYlTIW4fLX3/yY6VlVkg+er2yKynUSbiLqTRji+tl29UFifcFSVbkWNtqU+PzJ5bQA4VagMg==" type="application/javascript" data-module-id="./chunk-ref-selector.js" data-src="https://github.githubassets.com/assets/chunk-ref-selector-0f3cdd46.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-I7iI902D1A6s8umCD2hbF4o0hKW1lrpNfRJ2H7uw6fdMVR/8Jdtn19b3G/DDIT4lpXOUToZXTmbYnFQAYc5gag==" type="application/javascript" data-module-id="./chunk-responsive-underlinenav.js" data-src="https://github.githubassets.com/assets/chunk-responsive-underlinenav-23b888f7.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-SWy36S28Js+/YzsvYgmp+IEdC0qtMcBf6sYhXTEcj1aFPCLPOTOnOKqzFiNyH2oNVDd+u5Qi8eqYINSIu28LFQ==" type="application/javascript" data-module-id="./chunk-runner-groups.js" data-src="https://github.githubassets.com/assets/chunk-runner-groups-496cb7e9.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-SVdK0K69PnQ4FChdpl650OR+vplYWXqddxNkEGKhQf6tkehqvKkFEg5LQSZgCVKt2tfc9CnWJlmKCwbTTipEjg==" type="application/javascript" data-module-id="./chunk-series-table.js" data-src="https://github.githubassets.com/assets/chunk-series-table-49574ad0.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-tk76eoSLUqXSVZ8ANzPprrOImFIV1zQ/VBV+WzG8ZjZpVPH8cLkMH/ur5HJB1lxx9/yo+V2wjDF96t4qfUwZLA==" type="application/javascript" data-module-id="./chunk-severity-calculator-element.js" data-src="https://github.githubassets.com/assets/chunk-severity-calculator-element-b64efa7a.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-j7Pb1H+2Xt4YIKSrJLLXxl/NNkkpW//5PLTpu58JGD8pqRPODDjJKqjO6YPZd++BB4VJubHPjzvuMXhW/9jcqA==" type="application/javascript" data-module-id="./chunk-sortable-behavior.js" data-src="https://github.githubassets.com/assets/chunk-sortable-behavior-8fb3dbd4.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-nKa3UdA2O7Ve4Jn24gaB20yUfJvS7wlnd8Q8C+iWD8i2tXLgaKemDWkLeexeQdrs+an98FCl5fOiy0J+izn+tQ==" type="application/javascript" data-module-id="./chunk-three.module.js" data-src="https://github.githubassets.com/assets/chunk-three.module-9ca6b751.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-WK8VXw3lfUQ/VRW0zlgKPhcMUqH0uTnB/KzePUPdZhCm/HpxfXXHKTGvj5C0Oex7+zbIM2ECzULbtTCT4ug3yg==" type="application/javascript" data-module-id="./chunk-toast.js" data-src="https://github.githubassets.com/assets/chunk-toast-58af155f.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-1vSZvwpr106s8wjSNFNFGVmFT2E4YjI2N8k6JqiSb28GGYMkEJUhveotmvB00Z4bQZM61ZgvWcXax1U3M48gLQ==" type="application/javascript" data-module-id="./chunk-tweetsodium.js" data-src="https://github.githubassets.com/assets/chunk-tweetsodium-d6f499bf.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-fvcOOYapCxPkDRQWz2WQzrqL6rRhX88yHWF87fb9Xny2Fq4lri0ONaVFL7XDSTiTyu4OTp+8WoyfMVpgGUaaVg==" type="application/javascript" data-module-id="./chunk-unveil.js" data-src="https://github.githubassets.com/assets/chunk-unveil-7ef70e39.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-V1S2L90J/leeVmnOy/FbkG/OQV4USnz5ZyX6DdCbkdljoIDtBFoxUohUQokpegatnFHQmch34+humD9mitEyeg==" type="application/javascript" data-module-id="./chunk-user-status-submit.js" data-src="https://github.githubassets.com/assets/chunk-user-status-submit-5754b62f.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-cKu/+X7gT+WVH4sXKt0g3G77bfQfcgwurRObM+dt8XylPm9eEWI+/aWKhVab6VsYuvvuI5BTriKXhXfJwaSXdQ==" type="application/javascript" data-module-id="./chunk-webgl-warp.js" data-src="https://github.githubassets.com/assets/chunk-webgl-warp-70abbff9.js"></script>
+  
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-YXjGsE/FbG31jHGE+71lQbC5C2AWR6aoZmYxoD0vgIQNkSLjj0Faczvyk8tPdumns+DIwOVA2VlrSlt0stioqQ==" type="application/javascript" src="https://github.githubassets.com/assets/repositories-6178c6b0.js"></script>
+<script crossorigin="anonymous" defer="defer" integrity="sha512-VJ7p+8dAFyB3OfeLNwYIQpDHaVf8hYKz/3XBfcGwQjDRbBvZtk2wIf+jA5s9qhXg8CM1CdwSmhlVGnw7fO7H3A==" type="application/javascript" src="https://github.githubassets.com/assets/diffs-549ee9fb.js"></script>
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>lottie-ios/Watermelon.json at master · airbnb/lottie-ios · GitHub</title>
+    <meta name="description" content="An iOS library to natively render After Effects vector animations - lottie-ios/Watermelon.json at master · airbnb/lottie-ios">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+  <meta name="apple-itunes-app" content="app-id=1477376905" />
+    <meta name="twitter:image:src" content="https://opengraph.githubassets.com/4e1eb842add0ea66c9fa7c5682303992f35fff132cb61049a9f47b03447bad64/airbnb/lottie-ios" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="lottie-ios/Watermelon.json at master · airbnb/lottie-ios" /><meta name="twitter:description" content="An iOS library to natively render After Effects vector animations - lottie-ios/Watermelon.json at master · airbnb/lottie-ios" />
+    <meta property="og:image" content="https://opengraph.githubassets.com/4e1eb842add0ea66c9fa7c5682303992f35fff132cb61049a9f47b03447bad64/airbnb/lottie-ios" /><meta property="og:image:alt" content="An iOS library to natively render After Effects vector animations - lottie-ios/Watermelon.json at master · airbnb/lottie-ios" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="lottie-ios/Watermelon.json at master · airbnb/lottie-ios" /><meta property="og:url" content="https://github.com/airbnb/lottie-ios" /><meta property="og:description" content="An iOS library to natively render After Effects vector animations - lottie-ios/Watermelon.json at master · airbnb/lottie-ios" />
+
+
+
+    
+
+  <link rel="assets" href="https://github.githubassets.com/">
+  
+
+  <meta name="request-id" content="D1A7:5330:1260114:1379C6A:612CC42A" data-pjax-transient="true"/><meta name="html-safe-nonce" content="cd1c38a90ab08ed4e60c10424685f647c83c5f99b5b8f245c15a091850396baf" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJEMUE3OjUzMzA6MTI2MDExNDoxMzc5QzZBOjYxMkNDNDJBIiwidmlzaXRvcl9pZCI6IjI3OTE5NDkwODg3Mzc1MTA1MjUiLCJyZWdpb25fZWRnZSI6ImZyYSIsInJlZ2lvbl9yZW5kZXIiOiJmcmEifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="38a751746d45741ce859292c1acaa9465fe1e51e481eae27a8b36a140f547de6" data-pjax-transient="true"/>
+
+    <meta name="hovercard-subject-tag" content="repository:70198664" data-pjax-transient>
+
+
+  <meta name="github-keyboard-shortcuts" content="repository,source-code" data-pjax-transient="true" />
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY">
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-url" content="https://collector.githubapp.com/github/collect" />
+
+  <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
+
+  
+
+
+
+  <meta name="optimizely-datafile" content="{&quot;version&quot;: &quot;4&quot;, &quot;rollouts&quot;: [], &quot;typedAudiences&quot;: [], &quot;anonymizeIP&quot;: true, &quot;projectId&quot;: &quot;16737760170&quot;, &quot;variables&quot;: [], &quot;featureFlags&quot;: [], &quot;experiments&quot;: [{&quot;status&quot;: &quot;Running&quot;, &quot;audienceIds&quot;: [], &quot;variations&quot;: [{&quot;variables&quot;: [], &quot;id&quot;: &quot;20432530142&quot;, &quot;key&quot;: &quot;control&quot;}, {&quot;variables&quot;: [], &quot;id&quot;: &quot;20418424478&quot;, &quot;key&quot;: &quot;treatment&quot;}], &quot;id&quot;: &quot;20437502121&quot;, &quot;key&quot;: &quot;recommended_plan_and_benefits_in_signup&quot;, &quot;layerId&quot;: &quot;20428035169&quot;, &quot;trafficAllocation&quot;: [{&quot;entityId&quot;: &quot;20418424478&quot;, &quot;endOfRange&quot;: 5000}, {&quot;entityId&quot;: &quot;20418424478&quot;, &quot;endOfRange&quot;: 10000}], &quot;forcedVariations&quot;: {}}, {&quot;status&quot;: &quot;Running&quot;, &quot;audienceIds&quot;: [], &quot;variations&quot;: [{&quot;variables&quot;: [], &quot;id&quot;: &quot;20438636352&quot;, &quot;key&quot;: &quot;control&quot;}, {&quot;variables&quot;: [], &quot;id&quot;: &quot;20484957397&quot;, &quot;key&quot;: &quot;treatment&quot;}], &quot;id&quot;: &quot;20479227424&quot;, &quot;key&quot;: &quot;growth_ghec_onboarding_experience&quot;, &quot;layerId&quot;: &quot;20467848595&quot;, &quot;trafficAllocation&quot;: [{&quot;entityId&quot;: &quot;20484957397&quot;, &quot;endOfRange&quot;: 1000}, {&quot;entityId&quot;: &quot;20438636352&quot;, &quot;endOfRange&quot;: 5000}, {&quot;entityId&quot;: &quot;20438636352&quot;, &quot;endOfRange&quot;: 6000}, {&quot;entityId&quot;: &quot;20484957397&quot;, &quot;endOfRange&quot;: 8000}, {&quot;entityId&quot;: &quot;20484957397&quot;, &quot;endOfRange&quot;: 10000}], &quot;forcedVariations&quot;: {}}, {&quot;status&quot;: &quot;Running&quot;, &quot;audienceIds&quot;: [], &quot;variations&quot;: [{&quot;variables&quot;: [], &quot;id&quot;: &quot;20543572345&quot;, &quot;key&quot;: &quot;control&quot;}, {&quot;variables&quot;: [], &quot;id&quot;: &quot;20510876757&quot;, &quot;key&quot;: &quot;treatment&quot;}], &quot;id&quot;: &quot;20518037255&quot;, &quot;key&quot;: &quot;growth_issue_actions_prompt&quot;, &quot;layerId&quot;: &quot;20522524291&quot;, &quot;trafficAllocation&quot;: [{&quot;entityId&quot;: &quot;20510876757&quot;, &quot;endOfRange&quot;: 5000}, {&quot;entityId&quot;: &quot;20543572345&quot;, &quot;endOfRange&quot;: 10000}], &quot;forcedVariations&quot;: {}}], &quot;audiences&quot;: [{&quot;conditions&quot;: &quot;[\&quot;or\&quot;, {\&quot;match\&quot;: \&quot;exact\&quot;, \&quot;name\&quot;: \&quot;$opt_dummy_attribute\&quot;, \&quot;type\&quot;: \&quot;custom_attribute\&quot;, \&quot;value\&quot;: \&quot;$opt_dummy_value\&quot;}]&quot;, &quot;id&quot;: &quot;$opt_dummy_audience&quot;, &quot;name&quot;: &quot;Optimizely-Generated Audience for Backwards Compatibility&quot;}], &quot;groups&quot;: [{&quot;policy&quot;: &quot;random&quot;, &quot;trafficAllocation&quot;: [{&quot;entityId&quot;: &quot;20528555359&quot;, &quot;endOfRange&quot;: 5000}, {&quot;entityId&quot;: &quot;20470139194&quot;, &quot;endOfRange&quot;: 10000}], &quot;experiments&quot;: [{&quot;status&quot;: &quot;Running&quot;, &quot;audienceIds&quot;: [], &quot;variations&quot;: [{&quot;variables&quot;: [], &quot;id&quot;: &quot;20489782769&quot;, &quot;key&quot;: &quot;control&quot;}, {&quot;variables&quot;: [], &quot;id&quot;: &quot;20464890159&quot;, &quot;key&quot;: &quot;calculator&quot;}], &quot;id&quot;: &quot;20470139194&quot;, &quot;key&quot;: &quot;pricing_calculator&quot;, &quot;layerId&quot;: &quot;20484939336&quot;, &quot;trafficAllocation&quot;: [{&quot;entityId&quot;: &quot;20489782769&quot;, &quot;endOfRange&quot;: 5000}, {&quot;entityId&quot;: &quot;20464890159&quot;, &quot;endOfRange&quot;: 10000}], &quot;forcedVariations&quot;: {&quot;1268183565.1620830370&quot;: &quot;control&quot;, &quot;1684648857.1628809053&quot;: &quot;calculator&quot;}}], &quot;id&quot;: &quot;20536171833&quot;}], &quot;attributes&quot;: [{&quot;id&quot;: &quot;16822470375&quot;, &quot;key&quot;: &quot;user_id&quot;}, {&quot;id&quot;: &quot;17143601254&quot;, &quot;key&quot;: &quot;spammy&quot;}, {&quot;id&quot;: &quot;18175660309&quot;, &quot;key&quot;: &quot;organization_plan&quot;}, {&quot;id&quot;: &quot;18813001570&quot;, &quot;key&quot;: &quot;is_logged_in&quot;}, {&quot;id&quot;: &quot;19073851829&quot;, &quot;key&quot;: &quot;geo&quot;}, {&quot;id&quot;: &quot;20175462351&quot;, &quot;key&quot;: &quot;requestedCurrency&quot;}], &quot;botFiltering&quot;: false, &quot;accountId&quot;: &quot;16737760170&quot;, &quot;events&quot;: [{&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;17911811441&quot;, &quot;key&quot;: &quot;hydro_click.dashboard.teacher_toolbox_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18124116703&quot;, &quot;key&quot;: &quot;submit.organizations.complete_sign_up&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18145892387&quot;, &quot;key&quot;: &quot;no_metric.tracked_outside_of_optimizely&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18178755568&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.add_repo&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18180553241&quot;, &quot;key&quot;: &quot;submit.repository_imports.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18186103728&quot;, &quot;key&quot;: &quot;click.help.learn_more_about_repository_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18188530140&quot;, &quot;key&quot;: &quot;test_event.do_not_use_in_production&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18191963644&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.transfer_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18195612788&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.import_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18210945499&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.invite_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18211063248&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.create_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18215721889&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.update_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18224360785&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.dismiss&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18234832286&quot;, &quot;key&quot;: &quot;submit.organization_activation.complete&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18252392383&quot;, &quot;key&quot;: &quot;submit.org_repository.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18257551537&quot;, &quot;key&quot;: &quot;submit.org_member_invitation.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18259522260&quot;, &quot;key&quot;: &quot;submit.organization_profile.update&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18564603625&quot;, &quot;key&quot;: &quot;view.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18568612016&quot;, &quot;key&quot;: &quot;click.classroom_sign_in_click&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18572592540&quot;, &quot;key&quot;: &quot;view.classroom_name&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18574203855&quot;, &quot;key&quot;: &quot;click.classroom_create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18582053415&quot;, &quot;key&quot;: &quot;click.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18589463420&quot;, &quot;key&quot;: &quot;click.classroom_create_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591323364&quot;, &quot;key&quot;: &quot;click.classroom_create_first_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591652321&quot;, &quot;key&quot;: &quot;click.classroom_grant_access&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18607131425&quot;, &quot;key&quot;: &quot;view.classroom_creation&quot;}, {&quot;experimentIds&quot;: [&quot;20437502121&quot;, &quot;20479227424&quot;], &quot;id&quot;: &quot;18831680583&quot;, &quot;key&quot;: &quot;upgrade_account_plan&quot;}, {&quot;experimentIds&quot;: [&quot;20470139194&quot;], &quot;id&quot;: &quot;19064064515&quot;, &quot;key&quot;: &quot;click.signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19075373687&quot;, &quot;key&quot;: &quot;click.view_account_billing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19077355841&quot;, &quot;key&quot;: &quot;click.dismiss_signup_prompt&quot;}, {&quot;experimentIds&quot;: [&quot;20470139194&quot;], &quot;id&quot;: &quot;19079713938&quot;, &quot;key&quot;: &quot;click.contact_sales&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19120963070&quot;, &quot;key&quot;: &quot;click.compare_account_plans&quot;}, {&quot;experimentIds&quot;: [&quot;20470139194&quot;], &quot;id&quot;: &quot;19151690317&quot;, &quot;key&quot;: &quot;click.upgrade_account_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19424193129&quot;, &quot;key&quot;: &quot;click.open_account_switcher&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19520330825&quot;, &quot;key&quot;: &quot;click.visit_account_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19540970635&quot;, &quot;key&quot;: &quot;click.switch_account_context&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19730198868&quot;, &quot;key&quot;: &quot;submit.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19820830627&quot;, &quot;key&quot;: &quot;click.homepage_signup&quot;}, {&quot;experimentIds&quot;: [&quot;20470139194&quot;], &quot;id&quot;: &quot;19988571001&quot;, &quot;key&quot;: &quot;click.create_enterprise_trial&quot;}, {&quot;experimentIds&quot;: [&quot;20470139194&quot;], &quot;id&quot;: &quot;20036538294&quot;, &quot;key&quot;: &quot;click.create_organization_team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20040653299&quot;, &quot;key&quot;: &quot;click.input_enterprise_trial_form&quot;}, {&quot;experimentIds&quot;: [&quot;20470139194&quot;], &quot;id&quot;: &quot;20062030003&quot;, &quot;key&quot;: &quot;click.continue_with_team&quot;}, {&quot;experimentIds&quot;: [&quot;20470139194&quot;], &quot;id&quot;: &quot;20068947153&quot;, &quot;key&quot;: &quot;click.create_organization_free&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20086636658&quot;, &quot;key&quot;: &quot;click.signup_continue.username&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20091648988&quot;, &quot;key&quot;: &quot;click.signup_continue.create_account&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20103637615&quot;, &quot;key&quot;: &quot;click.signup_continue.email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20111574253&quot;, &quot;key&quot;: &quot;click.signup_continue.password&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20120044111&quot;, &quot;key&quot;: &quot;view.pricing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20152062109&quot;, &quot;key&quot;: &quot;submit.create_account&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20165800992&quot;, &quot;key&quot;: &quot;submit.upgrade_payment_form&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20171520319&quot;, &quot;key&quot;: &quot;submit.create_organization&quot;}, {&quot;experimentIds&quot;: [&quot;20437502121&quot;], &quot;id&quot;: &quot;20222645674&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.discuss_your_needs&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20227443657&quot;, &quot;key&quot;: &quot;submit.verify_primary_user_email&quot;}, {&quot;experimentIds&quot;: [&quot;20437502121&quot;], &quot;id&quot;: &quot;20234607160&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.try_enterprise&quot;}, {&quot;experimentIds&quot;: [&quot;20437502121&quot;], &quot;id&quot;: &quot;20238175784&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.team&quot;}, {&quot;experimentIds&quot;: [&quot;20437502121&quot;], &quot;id&quot;: &quot;20239847212&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.continue_free&quot;}, {&quot;experimentIds&quot;: [&quot;20437502121&quot;], &quot;id&quot;: &quot;20251097193&quot;, &quot;key&quot;: &quot;recommended_plan&quot;}, {&quot;experimentIds&quot;: [&quot;20470139194&quot;], &quot;id&quot;: &quot;20438619534&quot;, &quot;key&quot;: &quot;click.pricing_calculator.1_member&quot;}, {&quot;experimentIds&quot;: [&quot;20470139194&quot;], &quot;id&quot;: &quot;20456699683&quot;, &quot;key&quot;: &quot;click.pricing_calculator.15_members&quot;}, {&quot;experimentIds&quot;: [&quot;20470139194&quot;], &quot;id&quot;: &quot;20467868331&quot;, &quot;key&quot;: &quot;click.pricing_calculator.10_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20476267432&quot;, &quot;key&quot;: &quot;click.trial_days_remaining&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20476357660&quot;, &quot;key&quot;: &quot;click.discover_feature&quot;}, {&quot;experimentIds&quot;: [&quot;20470139194&quot;], &quot;id&quot;: &quot;20479287901&quot;, &quot;key&quot;: &quot;click.pricing_calculator.custom_members&quot;}, {&quot;experimentIds&quot;: [&quot;20437502121&quot;], &quot;id&quot;: &quot;20481107083&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.apply_teacher_benefits&quot;}, {&quot;experimentIds&quot;: [&quot;20470139194&quot;], &quot;id&quot;: &quot;20483089392&quot;, &quot;key&quot;: &quot;click.pricing_calculator.5_members&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20484283944&quot;, &quot;key&quot;: &quot;click.onboarding_task&quot;}, {&quot;experimentIds&quot;: [&quot;20437502121&quot;], &quot;id&quot;: &quot;20484996281&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.apply_student_benefits&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20486713726&quot;, &quot;key&quot;: &quot;click.onboarding_task_breadcrumb&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20490791319&quot;, &quot;key&quot;: &quot;click.upgrade_to_enterprise&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20491786766&quot;, &quot;key&quot;: &quot;click.talk_to_us&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20494144087&quot;, &quot;key&quot;: &quot;click.dismiss_enterprise_trial&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20499722759&quot;, &quot;key&quot;: &quot;completed_all_tasks&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20500710104&quot;, &quot;key&quot;: &quot;completed_onboarding_tasks&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20513160672&quot;, &quot;key&quot;: &quot;click.read_doc&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20516196762&quot;, &quot;key&quot;: &quot;actions_enabled&quot;}, {&quot;experimentIds&quot;: [&quot;20479227424&quot;], &quot;id&quot;: &quot;20518980986&quot;, &quot;key&quot;: &quot;click.dismiss_trial_banner&quot;}, {&quot;experimentIds&quot;: [&quot;20518037255&quot;], &quot;id&quot;: &quot;20535446721&quot;, &quot;key&quot;: &quot;click.issue_actions_prompt.dismiss_prompt&quot;}, {&quot;experimentIds&quot;: [&quot;20518037255&quot;], &quot;id&quot;: &quot;20557002247&quot;, &quot;key&quot;: &quot;click.issue_actions_prompt.setup_workflow&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20595070227&quot;, &quot;key&quot;: &quot;click.pull_request_setup_workflow&quot;}], &quot;revision&quot;: &quot;851&quot;}" />
+  <!-- To prevent page flashing, the optimizely JS needs to be loaded in the
+    <head> tag before the DOM renders -->
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-+jU501Se8pk+19AWlNhSR/uznFeWGI9ndTB52CGeN8Fze/Srm+6H0FN6FCnvSdvVMtHwsV1NGq1sX5RvBwEGAg==" type="application/javascript" src="https://github.githubassets.com/assets/optimizely-fa3539d3.js"></script>
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+
+      <meta name="expected-hostname" content="github.com">
+
+
+    <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS">
+
+  <meta http-equiv="x-pjax-version" content="65409a254077fa9f65aeaa0ceff0d1e201fc690c28fa1cc2e2254014f669039b">
+  
+
+    
+  <meta name="go-import" content="github.com/airbnb/lottie-ios git https://github.com/airbnb/lottie-ios.git">
+
+  <meta name="octolytics-dimension-user_id" content="698437" /><meta name="octolytics-dimension-user_login" content="airbnb" /><meta name="octolytics-dimension-repository_id" content="70198664" /><meta name="octolytics-dimension-repository_nwo" content="airbnb/lottie-ios" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="70198664" /><meta name="octolytics-dimension-repository_network_root_nwo" content="airbnb/lottie-ios" />
+
+
+
+    <link rel="canonical" href="https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <meta name="browser-optimizely-client-errors-url" content="https://api.github.com/_private/browser/optimizely_client/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+
+<meta name="theme-color" content="#1e2327">
+<meta name="color-scheme" content="light dark" />
+
+  <link rel="apple-touch-icon" href="https://github.githubassets.com/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://github.githubassets.com/apple-touch-icon-180x180.png">
+  <meta name="apple-mobile-web-app-title" content="GitHub">
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+<meta name="enabled-homepage-translation-languages" content="">
+
+  </head>
+
+  <body class="logged-out env-production page-responsive page-blob" style="word-wrap: break-word;">
+    
+
+    <div class="position-relative js-header-wrapper ">
+      <a href="#start-of-content" class="px-2 py-4 color-bg-info-inverse color-text-white show-on-focus js-skip-to-content">Skip to content</a>
+      <span data-view-component="true" class="progress-pjax-loader js-pjax-loader-bar Progress position-fixed width-full">
+    <span style="background-color: #79b8ff;width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar"></span>
+</span>      
+      
+
+
+        
+            
+<header class="Header-old header-logged-out js-details-container Details position-relative f4 py-2" role="banner">
+  <div class="container-xl d-lg-flex flex-items-center p-responsive">
+    <div class="d-flex flex-justify-between flex-items-center">
+        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <svg height="32" class="octicon octicon-mark-github color-text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+        </a>
+
+          <div class="d-lg-none css-truncate css-truncate-target width-fit p-2">
+            
+
+          </div>
+
+        <div class="d-flex flex-items-center">
+              <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo"
+                class="d-inline-block d-lg-none f5 color-text-white no-underline border color-border-tertiary rounded-2 px-2 py-1 mr-3 mr-sm-5"
+                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e6946e8227ebd68c8373c71aa58b64061557ca860d55d58c505eb992c37541c3"
+              >
+                Sign&nbsp;up
+              </a>
+
+          <button aria-label="Toggle navigation" aria-expanded="false" type="button" data-view-component="true" class="js-details-target btn-link d-lg-none mt-1">
+  
+  
+            <svg height="24" class="octicon octicon-three-bars color-text-white" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path></svg>
+
+  
+
+</button>        </div>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-flex d-lg-none flex-justify-end border-bottom color-bg-secondary p-3">
+        <button aria-label="Toggle navigation" aria-expanded="false" type="button" data-view-component="true" class="js-details-target btn-link">
+  
+  
+          <svg height="24" class="octicon octicon-x color-text-secondary" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M5.72 5.72a.75.75 0 011.06 0L12 10.94l5.22-5.22a.75.75 0 111.06 1.06L13.06 12l5.22 5.22a.75.75 0 11-1.06 1.06L12 13.06l-5.22 5.22a.75.75 0 01-1.06-1.06L10.94 12 5.72 6.78a.75.75 0 010-1.06z"></path></svg>
+
+  
+
+</button>      </div>
+
+        <nav class="mt-0 px-3 px-lg-0 mb-5 mb-lg-0" aria-label="Global">
+          <ul class="d-lg-flex list-style-none">
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/features" class="py-2 lh-condensed-ultra d-block Link--primary no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a>
+                    <ul class="list-style-none f5 pb-3">
+
+
+                          <li class="edge-item-fix"><a href="/mobile" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">Mobile <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                          <li class="edge-item-fix"><a href="/features/actions" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">Actions <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                          <li class="edge-item-fix"><a href="/features/codespaces" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">Codespaces <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                          <li class="edge-item-fix"><a href="/features/packages" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">Packages <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                          <li class="edge-item-fix"><a href="/features/security" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">Security <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                          <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">Code review <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                          <li class="edge-item-fix"><a href="/features/issues/" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">Issues <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                          <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">Integrations <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+
+
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/sponsors" class="py-2 lh-condensed-ultra d-block no-underline Link--primary no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Sponsors">GitHub Sponsors <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/customer-stories" class="py-2 lh-condensed-ultra d-block no-underline Link--primary no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories<span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/team" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Team">Team</a>
+              </li>
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded px-0 pt-2 pb-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block Link--primary no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Explore">Explore GitHub <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                    </ul>
+
+                    <h4 class="color-text-tertiary text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Learn and contribute</h4>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Topics">Topics <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                        <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Collections">Collections <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Trending">Trending <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                    </ul>
+
+                    <h4 class="color-text-tertiary text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Connect with others</h4>
+                    <ul class="list-style-none mb-0">
+                      <li class="edge-item-fix"><a href="https://github.com/readme" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">The ReadME Project <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Events">Events <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Community forum">Community forum <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://stars.github.com" class="py-2 pb-0 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to GitHub Stars Program">GitHub Stars program <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                       <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded px-0 pt-2 pb-4 mt-0 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block Link--primary no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a>
+
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Compare plans">Compare plans <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Contact Sales">Contact Sales <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block no-underline Link--primary no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+          </ul>
+        </nav>
+
+      <div class="d-lg-flex flex-items-center px-3 px-lg-0 text-center text-lg-left">
+          <div class="d-lg-flex min-width-0 mb-3 mb-lg-0">
+            
+
+
+
+<div class="header-search flex-auto js-site-search position-relative flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 scoped-search site-scoped-search js-jump-to"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="70198664" data-scoped-search-url="/airbnb/lottie-ios/search" data-owner-scoped-search-url="/orgs/airbnb/search" data-unscoped-search-url="/search" action="/airbnb/lottie-ios/search" accept-charset="UTF-8" method="get">
+      <label class="form-control input-sm header-search-wrapper p-0 js-chromeless-input-container header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center">
+        <input type="text"
+          class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey=s,/
+          name="q"
+          data-test-selector="nav-search-input"
+          placeholder="Search"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
+          autocapitalize="off"
+          role="combobox"
+          aria-haspopup="listbox"
+          aria-expanded="false"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations"
+          spellcheck="false"
+          autocomplete="off"
+        >
+        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="IhMJbxXKNAkF6Q5YQ9uNqM8qQwows0PCtrI4LcM7+deFiczrrSM3verSuCeC9lFkBD7Zhqd9Aeel7H8ONAPsoA==" />
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
+
+
+          <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+            
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="suggestion">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 color-bg-tertiary px-1 color-text-tertiary ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 color-bg-tertiary px-1 color-text-tertiary ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="color-text-secondary">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="scoped_search">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 color-bg-tertiary px-1 color-text-tertiary ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 color-bg-tertiary px-1 color-text-tertiary ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-owner-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="owner_scoped_search">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 color-bg-tertiary px-1 color-text-tertiary ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this organization">
+        In this organization
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 color-bg-tertiary px-1 color-text-tertiary ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="global_search">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 color-bg-tertiary px-1 color-text-tertiary ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 color-bg-tertiary px-1 color-text-tertiary ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+          </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <div class="position-relative mr-3 d-inline-block">
+          <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Fairbnb%2Flottie-ios%2Fblob%2Fmaster%2FExample%2Flottie-swift%2FTestAnimations%2FWatermelon.json"
+            class="HeaderMenu-link flex-shrink-0 no-underline"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ef5c4c54bf414e1b8e06da912c25ae56dadb48dd0c9dd0677041eef93207114d"
+            data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
+            Sign in
+          </a>
+        </div>
+
+            <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo&amp;source_repo=airbnb%2Flottie-ios"
+              class="HeaderMenu-link flex-shrink-0 d-inline-block no-underline border color-border-tertiary rounded px-2 py-1"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ef5c4c54bf414e1b8e06da912c25ae56dadb48dd0c9dd0677041eef93207114d"
+              data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show;ref_cta:Sign up;ref_loc:header logged out&quot;,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="dfb6d8428bd8a9acb612c545afdf292532bf1740d14a07144d37cd3baf95a52d"
+            >
+              Sign up
+            </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+    </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+
+
+
+
+    <div data-pjax-replace id="js-flash-container">
+
+
+  <template class="js-flash-template">
+    <div class="flash flash-full  {{ className }}">
+  <div class=" px-2" >
+    <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+    </button>
+    
+      <div>{{ message }}</div>
+
+  </div>
+</div>
+  </template>
+</div>
+
+
+    
+
+  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
+
+
+
+
+
+  <div
+    class="application-main "
+    data-commit-hovercards-enabled
+    data-discussion-hovercards-enabled
+    data-issue-and-pr-hovercards-enabled
+  >
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main id="js-repo-pjax-container" data-pjax-container >
+      
+
+    
+    
+
+
+
+
+
+
+  
+
+
+  <div id="repository-container-header" class="hx_page-header-bg pt-3 hide-full-screen mb-5" data-pjax-replace>
+
+      <div class="d-flex mb-3 px-3 px-md-4 px-lg-5">
+
+        <div class="flex-auto min-width-0 width-fit mr-3">
+            <h1 class=" d-flex flex-wrap flex-items-center break-word f3 text-normal">
+    <svg class="octicon octicon-repo color-text-secondary mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+  <span class="author flex-self-stretch" itemprop="author">
+    <a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/airbnb/hovercard" href="/airbnb">airbnb</a>
+  </span>
+  <span class="mx-1 flex-self-stretch color-text-secondary">/</span>
+  <strong itemprop="name" class="mr-2 flex-self-stretch">
+    <a data-pjax="#js-repo-pjax-container" href="/airbnb/lottie-ios">lottie-ios</a>
+  </strong>
+  
+</h1>
+
+
+        </div>
+
+          <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
+    <li>
+      <details id="funding-links-modal" class="details-reset details-overlay details-overlay-dark d-inline-block float-left" >
+        <summary id="sponsor-button-repo" class="btn btn-sm"
+          title="Sponsor airbnb/lottie-ios"
+          data-ga-click="Repository, show sponsor modal, action:blob#show; text:Sponsor"
+          >
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-heart icon-sponsor text-pink mr-1">
+    <path fill-rule="evenodd" d="M4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.565 20.565 0 008 13.393a20.561 20.561 0 003.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.75.75 0 01-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5zM8 14.25l-.345.666-.002-.001-.006-.003-.018-.01a7.643 7.643 0 01-.31-.17 22.075 22.075 0 01-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.08 22.08 0 01-3.744 2.584l-.018.01-.006.003h-.002L8 14.25zm0 0l.345.666a.752.752 0 01-.69 0L8 14.25z"></path>
+</svg>
+            Sponsor
+        </summary>
+        <details-dialog
+          class="anim-fade-in fast Box Box--overlay d-flex flex-column"
+            src="/airbnb/lottie-ios/funding_links?fragment=1"
+            preload
+          >
+          <div class="Box-header">
+            <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+            </button>
+            <h3 class="Box-title">
+              Sponsor airbnb/lottie-ios
+            </h3>
+          </div>
+          <div class="overflow-auto">
+            <include-fragment
+              >
+              <svg aria-label="Loading..." style="box-sizing: content-box; color: var(--color-icon-primary);" width="64" height="64" viewBox="0 0 16 16" fill="none" data-view-component="true" class="my-3 mx-auto d-block anim-rotate">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg>
+            </include-fragment>
+          </div>
+        </details-dialog>
+      </details>
+    </li>
+
+  <li>
+      <a class="tooltipped tooltipped-s btn btn-sm" aria-label="You must be signed in to change notification settings" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="07c0ba561433fe4a0b6a761bbd64accd8cb0cdee514ab10a336cda0dbbdf69e4" href="/login?return_to=%2Fairbnb%2Flottie-ios">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell">
+    <path d="M8 16a2 2 0 001.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 008 16z"></path><path fill-rule="evenodd" d="M8 1.5A3.5 3.5 0 004.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.018.018 0 00-.003.01l.001.006c0 .002.002.004.004.006a.017.017 0 00.006.004l.007.001h10.964l.007-.001a.016.016 0 00.006-.004.016.016 0 00.004-.006l.001-.007a.017.017 0 00-.003-.01l-1.703-2.554a1.75 1.75 0 01-.294-.97V5A3.5 3.5 0 008 1.5zM3 5a5 5 0 0110 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.518 1.518 0 0113.482 13H2.518a1.518 1.518 0 01-1.263-2.36l1.703-2.554A.25.25 0 003 7.947V5z"></path>
+</svg>
+    Notifications
+</a>
+  </li>
+
+  <li>
+          <a class="btn btn-sm btn-with-count  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:70198664,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1a6f1fcad34075194c4034e20da01c4bff9b6a20b3e3215d5534cb911745aa6e" href="/login?return_to=%2Fairbnb%2Flottie-ios">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star v-align-text-bottom mr-1">
+    <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
+</svg>
+      <span data-view-component="true">
+        Star
+</span></a>
+    <a class="social-count js-social-count" href="/airbnb/lottie-ios/stargazers"
+      aria-label="21921 users starred this repository">
+      21.9k
+    </a>
+
+  </li>
+
+  <li>
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:70198664,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="da55972ab44f9ae428aef9f43de0b8d1dd147f45c01fd23411cbc2ea45c428a1" href="/login?return_to=%2Fairbnb%2Flottie-ios">
+          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked">
+    <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
+</svg>
+          Fork
+</a>
+      <a href="/airbnb/lottie-ios/network/members" class="social-count"
+         aria-label="3190 users forked this repository">
+        3.2k
+      </a>
+  </li>
+</ul>
+
+      </div>
+
+      <div id="responsive-meta-container" data-pjax-replace>
+</div>
+
+
+        
+
+  <nav data-pjax="#js-repo-pjax-container" aria-label="Repository" data-view-component="true" class="js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 px-md-4 px-lg-5">
+
+    <ul data-view-component="true" class="UnderlineNav-body list-style-none">
+        <li data-view-component="true" class="d-flex">
+  <a id="code-tab" href="/airbnb/lottie-ios" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /airbnb/lottie-ios" data-hotkey="g c" data-ga-click="Repository, Navigation click, Code tab" data-pjax="#repo-content-pjax-container" aria-current="page" data-view-component="true" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
+    
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline">
+    <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
+</svg>
+          <span data-content="Code">Code</span>
+            <span title="Not available" data-view-component="true" class="Counter"></span>
+
+    
+</a></li>
+        <li data-view-component="true" class="d-flex">
+  <a id="issues-tab" href="/airbnb/lottie-ios/issues" data-tab-item="i1issues-tab" data-selected-links="repo_issues repo_labels repo_milestones /airbnb/lottie-ios/issues" data-hotkey="g i" data-ga-click="Repository, Navigation click, Issues tab" data-pjax="#repo-content-pjax-container" data-view-component="true" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline">
+    <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path>
+</svg>
+          <span data-content="Issues">Issues</span>
+            <span title="247" data-view-component="true" class="Counter">247</span>
+
+    
+</a></li>
+        <li data-view-component="true" class="d-flex">
+  <a id="pull-requests-tab" href="/airbnb/lottie-ios/pulls" data-tab-item="i2pull-requests-tab" data-selected-links="repo_pulls checks /airbnb/lottie-ios/pulls" data-hotkey="g p" data-ga-click="Repository, Navigation click, Pull requests tab" data-pjax="#repo-content-pjax-container" data-view-component="true" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request UnderlineNav-octicon d-none d-sm-inline">
+    <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path>
+</svg>
+          <span data-content="Pull requests">Pull requests</span>
+            <span title="32" data-view-component="true" class="Counter">32</span>
+
+    
+</a></li>
+        <li data-view-component="true" class="d-flex">
+  <a id="actions-tab" href="/airbnb/lottie-ios/actions" data-tab-item="i3actions-tab" data-selected-links="repo_actions /airbnb/lottie-ios/actions" data-hotkey="g a" data-ga-click="Repository, Navigation click, Actions tab" data-pjax="#repo-content-pjax-container" data-view-component="true" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline">
+    <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM6.379 5.227A.25.25 0 006 5.442v5.117a.25.25 0 00.379.214l4.264-2.559a.25.25 0 000-.428L6.379 5.227z"></path>
+</svg>
+          <span data-content="Actions">Actions</span>
+            <span title="Not available" data-view-component="true" class="Counter"></span>
+
+    
+</a></li>
+        <li data-view-component="true" class="d-flex">
+  <a id="projects-tab" href="/airbnb/lottie-ios/projects" data-tab-item="i4projects-tab" data-selected-links="repo_projects new_repo_project repo_project /airbnb/lottie-ios/projects" data-hotkey="g b" data-ga-click="Repository, Navigation click, Projects tab" data-view-component="true" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project UnderlineNav-octicon d-none d-sm-inline">
+    <path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path>
+</svg>
+          <span data-content="Projects">Projects</span>
+            <span title="5" data-view-component="true" class="Counter">5</span>
+
+    
+</a></li>
+        <li data-view-component="true" class="d-flex">
+  <a id="security-tab" href="/airbnb/lottie-ios/security" data-tab-item="i5security-tab" data-selected-links="security overview alerts policy token_scanning code_scanning /airbnb/lottie-ios/security" data-hotkey="g s" data-ga-click="Repository, Navigation click, Security tab" data-view-component="true" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield UnderlineNav-octicon d-none d-sm-inline">
+    <path fill-rule="evenodd" d="M7.467.133a1.75 1.75 0 011.066 0l5.25 1.68A1.75 1.75 0 0115 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.7 1.7 0 01-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 011.217-1.667l5.25-1.68zm.61 1.429a.25.25 0 00-.153 0l-5.25 1.68a.25.25 0 00-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.2.2 0 00.154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.25.25 0 00-.174-.237l-5.25-1.68zM9 10.5a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.75a.75.75 0 10-1.5 0v3a.75.75 0 001.5 0v-3z"></path>
+</svg>
+          <span data-content="Security">Security</span>
+            <include-fragment src="/airbnb/lottie-ios/security/overall-count" accept="text/fragment+html"></include-fragment>
+
+    
+</a></li>
+        <li data-view-component="true" class="d-flex">
+  <a id="insights-tab" href="/airbnb/lottie-ios/pulse" data-tab-item="i6insights-tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /airbnb/lottie-ios/pulse" data-ga-click="Repository, Navigation click, Insights tab" data-view-component="true" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline">
+    <path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path>
+</svg>
+          <span data-content="Insights">Insights</span>
+            <span title="Not available" data-view-component="true" class="Counter"></span>
+
+    
+</a></li>
+</ul>
+      <div style="visibility:hidden;" data-view-component="true" class="UnderlineNav-actions  js-responsive-underlinenav-overflow position-absolute pr-3 pr-md-4 pr-lg-5 right-0">      <details data-view-component="true" class="details-overlay details-reset position-relative">
+  <summary role="button" data-view-component="true">          <div class="UnderlineNav-item mr-0 border-0">
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+    <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+</svg>
+            <span class="sr-only">More</span>
+          </div>
+</summary>
+  <div data-view-component="true">          <details-menu role="menu" data-view-component="true" class="dropdown-menu dropdown-menu-sw">
+  
+            <ul>
+                <li data-menu-item="i0code-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item selected dropdown-item" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /airbnb/lottie-ios" href="/airbnb/lottie-ios">
+                    Code
+</a>                </li>
+                <li data-menu-item="i1issues-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_issues repo_labels repo_milestones /airbnb/lottie-ios/issues" href="/airbnb/lottie-ios/issues">
+                    Issues
+</a>                </li>
+                <li data-menu-item="i2pull-requests-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_pulls checks /airbnb/lottie-ios/pulls" href="/airbnb/lottie-ios/pulls">
+                    Pull requests
+</a>                </li>
+                <li data-menu-item="i3actions-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_actions /airbnb/lottie-ios/actions" href="/airbnb/lottie-ios/actions">
+                    Actions
+</a>                </li>
+                <li data-menu-item="i4projects-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_projects new_repo_project repo_project /airbnb/lottie-ios/projects" href="/airbnb/lottie-ios/projects">
+                    Projects
+</a>                </li>
+                <li data-menu-item="i5security-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="security overview alerts policy token_scanning code_scanning /airbnb/lottie-ios/security" href="/airbnb/lottie-ios/security">
+                    Security
+</a>                </li>
+                <li data-menu-item="i6insights-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /airbnb/lottie-ios/pulse" href="/airbnb/lottie-ios/pulse">
+                    Insights
+</a>                </li>
+            </ul>
+
+</details-menu></div>
+</details></div>
+</nav>
+
+  </div>
+
+
+<div class="clearfix new-discussion-timeline container-xl px-3 px-md-4 px-lg-5">
+  <div id="repo-content-pjax-container" class="repository-content " >
+
+    
+
+
+    
+      
+  
+  
+<div>
+  
+
+
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/airbnb/lottie-ios/blob/409cc3071f0c6c91cfd34f345f5eeb1dae9a5fc4/Example/lottie-swift/TestAnimations/Watermelon.json">Permalink</a>
+
+    <!-- blob contrib key: blob_contributors:v22:c08eae8fae8fa69825398290ad6fda1db3c844af67a337b642e41f537e34e43c -->
+
+    <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
+      
+<div class="position-relative">
+  <details class="details-reset details-overlay mr-0 mb-0 " id="branch-select-menu">
+    <summary class="btn css-truncate"
+            data-hotkey="w"
+            title="Switch branches or tags">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-branch text-gray">
+    <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path>
+</svg>
+      <span class="css-truncate-target" data-menu-button>master</span>
+      <span class="dropdown-caret"></span>
+    </summary>
+
+      
+<div class="SelectMenu">
+  <div class="SelectMenu-modal">
+    <header class="SelectMenu-header">
+      <span class="SelectMenu-title">Switch branches/tags</span>
+      <button class="SelectMenu-closeButton" type="button" data-toggle-for="branch-select-menu"><svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg></button>
+    </header>
+
+    <input-demux data-action="tab-container-change:input-demux#storeInput tab-container-changed:input-demux#updateInput">
+      <tab-container class="d-flex flex-column js-branches-tags-tabs" style="min-height: 0;">
+        <div class="SelectMenu-filter">
+          <input data-target="input-demux.source"
+                 id="context-commitish-filter-field"
+                 class="SelectMenu-input form-control"
+                 aria-owns="ref-list-branches"
+                 data-controls-ref-menu-id="ref-list-branches"
+                 autofocus
+                 autocomplete="off"
+                 aria-label="Filter branches/tags"
+                 placeholder="Filter branches/tags"
+                 type="text"
+          >
+        </div>
+
+        <div class="SelectMenu-tabs" role="tablist" data-target="input-demux.control" >
+          <button class="SelectMenu-tab" type="button" role="tab" aria-selected="true">Branches</button>
+          <button class="SelectMenu-tab" type="button" role="tab">Tags</button>
+        </div>
+
+        <div role="tabpanel" id="ref-list-branches" data-filter-placeholder="Filter branches/tags" class="d-flex flex-column flex-auto overflow-auto" tabindex="">
+          <ref-selector
+            type="branch"
+            data-targets="input-demux.sinks"
+            data-action="
+              input-entered:ref-selector#inputEntered
+              tab-selected:ref-selector#tabSelected
+              focus-list:ref-selector#focusFirstListMember
+            "
+            query-endpoint="/airbnb/lottie-ios/refs"
+            
+            cache-key="v0:1621007353.7011998"
+            current-committish="bWFzdGVy"
+            default-branch="bWFzdGVy"
+            name-with-owner="YWlyYm5iL2xvdHRpZS1pb3M="
+            prefetch-on-mouseover
+          >
+
+            <template data-target="ref-selector.fetchFailedTemplate">
+              <div class="SelectMenu-message" data-index="{{ index }}">Could not load branches</div>
+            </template>
+
+              <template data-target="ref-selector.noMatchTemplate">
+    <div class="SelectMenu-message">Nothing to show</div>
+</template>
+
+
+            <!-- TODO: this max-height is necessary or else the branch list won't scroll.  why? -->
+            <div data-target="ref-selector.listContainer" role="menu" class="SelectMenu-list " style="max-height: 330px" data-pjax="#repo-content-pjax-container">
+              <div class="SelectMenu-loading pt-3 pb-0" aria-label="Menu is loading">
+                <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg>
+              </div>
+            </div>
+
+              <template data-target="ref-selector.itemTemplate">
+  <a href="https://github.com/airbnb/lottie-ios/blob/{{ urlEncodedRefName }}/Example/lottie-swift/TestAnimations/Watermelon.json" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+    <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
+    <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
+  </a>
+</template>
+
+
+              <footer class="SelectMenu-footer"><a href="/airbnb/lottie-ios/branches">View all branches</a></footer>
+          </ref-selector>
+
+        </div>
+
+        <div role="tabpanel" id="tags-menu" data-filter-placeholder="Find a tag" class="d-flex flex-column flex-auto overflow-auto" tabindex="" hidden>
+          <ref-selector
+            type="tag"
+            data-action="
+              input-entered:ref-selector#inputEntered
+              tab-selected:ref-selector#tabSelected
+              focus-list:ref-selector#focusFirstListMember
+            "
+            data-targets="input-demux.sinks"
+            query-endpoint="/airbnb/lottie-ios/refs"
+            cache-key="v0:1621007353.7011998"
+            current-committish="bWFzdGVy"
+            default-branch="bWFzdGVy"
+            name-with-owner="YWlyYm5iL2xvdHRpZS1pb3M="
+          >
+
+            <template data-target="ref-selector.fetchFailedTemplate">
+              <div class="SelectMenu-message" data-index="{{ index }}">Could not load tags</div>
+            </template>
+
+            <template data-target="ref-selector.noMatchTemplate">
+              <div class="SelectMenu-message" data-index="{{ index }}">Nothing to show</div>
+            </template>
+
+              <template data-target="ref-selector.itemTemplate">
+  <a href="https://github.com/airbnb/lottie-ios/blob/{{ urlEncodedRefName }}/Example/lottie-swift/TestAnimations/Watermelon.json" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+    <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
+    <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
+  </a>
+</template>
+
+
+            <div data-target="ref-selector.listContainer" role="menu" class="SelectMenu-list" style="max-height: 330px" data-pjax="#repo-content-pjax-container">
+              <div class="SelectMenu-loading pt-3 pb-0" aria-label="Menu is loading">
+                <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg>
+              </div>
+            </div>
+              <footer class="SelectMenu-footer"><a href="/airbnb/lottie-ios/tags">View all tags</a></footer>
+          </ref-selector>
+        </div>
+      </tab-container>
+    </input-demux>
+  </div>
+</div>
+
+  </details>
+
+</div>
+
+      <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/airbnb/lottie-ios"><span>lottie-ios</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/airbnb/lottie-ios/tree/master/Example"><span>Example</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/airbnb/lottie-ios/tree/master/Example/lottie-swift"><span>lottie-swift</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/airbnb/lottie-ios/tree/master/Example/lottie-swift/TestAnimations"><span>TestAnimations</span></a></span><span class="separator">/</span><strong class="final-path">Watermelon.json</strong>
+      </h2>
+      <a href="/airbnb/lottie-ios/find/master"
+            class="js-pjax-capture-input btn mr-2 d-none d-md-block"
+            data-pjax
+            data-hotkey="t">
+        Go to file
+      </a>
+
+      <details id="blob-more-options-details" data-view-component="true" class="details-overlay details-reset position-relative">
+  <summary role="button" data-view-component="true" class="btn">
+  
+            <svg aria-label="More options" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+    <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+</svg>
+
+  
+
+</summary>
+  <div data-view-component="true">          <ul class="dropdown-menu dropdown-menu-sw">
+            <li class="d-block d-md-none">
+              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:70198664,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="06ee51587836b41c66e661e26b7f53db14a0b678358f45d831d04eeedfe8cd20" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/airbnb/lottie-ios/find/master">
+                <span class="flex-auto">Go to file</span>
+                <span class="text-small color-text-secondary" aria-hidden="true">T</span>
+</a>            </li>
+            <li data-toggle-for="blob-more-options-details">
+              <button data-toggle-for="jumpto-line-details-dialog" type="button" data-view-component="true" class="dropdown-item btn-link">
+  
+  
+                <span class="d-flex flex-items-baseline">
+                  <span class="flex-auto">Go to line</span>
+                  <span class="text-small color-text-secondary" aria-hidden="true">L</span>
+                </span>
+
+  
+
+</button>            </li>
+            <li class="dropdown-divider" role="none"></li>
+            <li>
+              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="Example/lottie-swift/TestAnimations/Watermelon.json" data-view-component="true" class="dropdown-item cursor-pointer">
+    
+                Copy path
+
+</clipboard-copy>            </li>
+            <li>
+              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/airbnb/lottie-ios/blob/409cc3071f0c6c91cfd34f345f5eeb1dae9a5fc4/Example/lottie-swift/TestAnimations/Watermelon.json" data-view-component="true" class="dropdown-item cursor-pointer">
+    
+                <span class="d-flex flex-items-baseline">
+                  <span class="flex-auto">Copy permalink</span>
+                </span>
+
+</clipboard-copy>            </li>
+          </ul>
+</div>
+</details>    </div>
+
+
+
+
+    <div class="Box d-flex flex-column flex-shrink-0 mb-3">
+      
+  <div class="Box-header hx_commit-tease Details js-details-container">
+      <div class="d-flex flex-items-center">
+        <span class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1">
+          <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/buba447/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/buba447"><img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/1163980?s=48&amp;v=4" width="24" height="24" alt="@buba447" /></a>
+        </span>
+        <div class="flex-1 d-flex flex-items-center ml-3 min-width-0">
+          <div class="css-truncate css-truncate-overflow">
+            <a class="text-bold Link--primary" rel="contributor" data-hovercard-type="user" data-hovercard-url="/users/buba447/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/buba447">buba447</a>
+
+              <span class="markdown-title">
+                <a data-pjax="true" title="Initial commit of lottie-swift" class="Link--secondary" href="/airbnb/lottie-ios/commit/a607fc1c8f4a32cb1fa6fdc6bc760b3d1cc3355d">Initial commit of lottie-swift</a>
+              </span>
+          </div>
+
+
+          <span class="ml-2">
+            <include-fragment accept="text/fragment+html" src="/airbnb/lottie-ios/commit/a607fc1c8f4a32cb1fa6fdc6bc760b3d1cc3355d/rollup?direction=e" class="d-inline"></include-fragment>
+          </span>
+        </div>
+        <div class="ml-3 d-flex flex-shrink-0 flex-items-center flex-justify-end color-text-secondary no-wrap">
+          <span class="d-none d-md-inline">
+            <span>Latest commit</span>
+            <a class="text-small text-mono Link--secondary" href="/airbnb/lottie-ios/commit/a607fc1c8f4a32cb1fa6fdc6bc760b3d1cc3355d" data-pjax>a607fc1</a>
+            <span itemprop="dateModified"><relative-time datetime="2019-03-06T22:05:43Z" class="no-wrap">Mar 7, 2019</relative-time></span>
+          </span>
+
+          <a data-pjax href="/airbnb/lottie-ios/commits/master/Example/lottie-swift/TestAnimations/Watermelon.json" class="ml-3 no-wrap Link--primary no-underline">
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-history text-gray">
+    <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"></path>
+</svg>
+            <span class="d-none d-sm-inline">
+              <strong>History</strong>
+            </span>
+          </a>
+        </div>
+      </div>
+
+  </div>
+
+  <div class="Box-body d-flex flex-items-center flex-auto border-bottom-0 flex-wrap" >
+    <details class="details-reset details-overlay details-overlay-dark lh-default color-text-primary float-left mr-3" id="blob_contributors_box">
+      <summary class="Link--primary">
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-people text-gray">
+    <path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path>
+</svg>
+        <strong>1</strong>
+        
+        contributor
+      </summary>
+      <details-dialog
+        class="Box Box--overlay d-flex flex-column anim-fade-in fast"
+        aria-label="Users who have contributed to this file"
+        src="/airbnb/lottie-ios/contributors-list/master/Example/lottie-swift/TestAnimations/Watermelon.json" preload>
+        <div class="Box-header">
+          <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+          </button>
+          <h3 class="Box-title">
+            Users who have contributed to this file
+          </h3>
+        </div>
+        <include-fragment>
+          <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="my-3 mx-auto d-block anim-rotate">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg>
+        </include-fragment>
+      </details-dialog>
+    </details>
+  </div>
+    </div>
+
+
+
+
+
+
+
+
+  
+    <div data-target="readme-toc.content" class="Box mt-3 position-relative
+    ">
+      
+  <div
+    class="Box-header py-2 pr-2 d-flex flex-shrink-0 flex-md-row flex-items-center"
+    
+  >
+
+
+  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1">
+
+      <span class="file-mode" title="File mode">executable file</span>
+      <span class="file-info-divider"></span>
+      1 lines (1 sloc)
+      <span class="file-info-divider"></span>
+    26.6 KB
+  </div>
+
+  <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
+
+    <div class="BtnGroup">
+      <a href="/airbnb/lottie-ios/raw/master/Example/lottie-swift/TestAnimations/Watermelon.json" id="raw-url" role="button" data-view-component="true" class="btn-sm btn BtnGroup-item">
+  
+  Raw
+  
+
+</a>
+        <a href="/airbnb/lottie-ios/blame/master/Example/lottie-swift/TestAnimations/Watermelon.json" data-hotkey="b" role="button" data-view-component="true" class="js-update-url-with-hash btn-sm btn BtnGroup-item">
+  
+  Blame
+  
+
+</a>
+    </div>
+
+    <div>
+          <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform"
+             data-platforms="windows,mac"
+             href="https://desktop.github.com"
+             aria-label="Open this file in GitHub Desktop"
+             data-ga-click="Repository, open with desktop">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-desktop">
+    <path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path>
+</svg>
+          </a>
+
+          <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Fairbnb%2Flottie-ios%2Fblob%2Fmaster%2FExample%2Flottie-swift%2FTestAnimations%2FWatermelon.json" class="btn-octicon disabled tooltipped tooltipped-nw"
+            aria-label="You must be signed in to make or propose changes">
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
+    <path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path>
+</svg>
+          </a>
+          <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Fairbnb%2Flottie-ios%2Fblob%2Fmaster%2FExample%2Flottie-swift%2FTestAnimations%2FWatermelon.json" class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw"
+            aria-label="You must be signed in to make or propose changes">
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
+    <path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path>
+</svg>
+          </a>
+    </div>
+  </div>
+
+    <div class="d-flex hide-lg hide-xl flex-order-2 flex-grow-0">
+      <details class="dropdown details-reset details-overlay d-inline-block">
+        <summary class="btn-octicon" aria-haspopup="true" aria-label="possible actions">
+          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+    <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+</svg>
+        </summary>
+
+        <ul class="dropdown-menu dropdown-menu-sw">
+            <li>
+                <a class="dropdown-item tooltipped tooltipped-nw js-remove-unless-platform"
+                   data-platforms="windows,mac"
+                   href="https://desktop.github.com"
+                   data-ga-click="Repository, open with desktop">
+                  Open with Desktop
+                </a>
+            </li>
+          <li>
+            <a class="dropdown-item" href="/airbnb/lottie-ios/raw/master/Example/lottie-swift/TestAnimations/Watermelon.json">
+              View raw
+            </a>
+          </li>
+            <li>
+              <a class="dropdown-item" href="/airbnb/lottie-ios/blame/master/Example/lottie-swift/TestAnimations/Watermelon.json">
+                View blame
+              </a>
+            </li>
+
+        </ul>
+      </details>
+    </div>
+</div>
+
+
+      
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-json  gist-border-0">
+
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">{&quot;assets&quot;:[],&quot;layers&quot;:[{&quot;ddd&quot;:0,&quot;ind&quot;:0,&quot;ty&quot;:1,&quot;nm&quot;:&quot;N&quot;,&quot;ks&quot;:{&quot;o&quot;:{&quot;k&quot;:0},&quot;r&quot;:{&quot;k&quot;:[{&quot;i&quot;:{&quot;x&quot;:[0.833],&quot;y&quot;:[0.833]},&quot;o&quot;:{&quot;x&quot;:[0.167],&quot;y&quot;:[0.167]},&quot;n&quot;:[&quot;0p833_0p833_0p167_0p167&quot;],&quot;t&quot;:-10.801,&quot;s&quot;:[-111.167],&quot;e&quot;:[-111.167]},{&quot;i&quot;:{&quot;x&quot;:[0.833],&quot;y&quot;:[0.833]},&quot;o&quot;:{&quot;x&quot;:[0.167],&quot;y&quot;:[0.167]},&quot;n&quot;:[&quot;0p833_0p833_0p167_0p167&quot;],&quot;t&quot;:4,&quot;s&quot;:[-111.167],&quot;e&quot;:[-19.9]},{&quot;i&quot;:{&quot;x&quot;:[0.833],&quot;y&quot;:[0.833]},&quot;o&quot;:{&quot;x&quot;:[0.167],&quot;y&quot;:[0.167]},&quot;n&quot;:[&quot;0p833_0p833_0p167_0p167&quot;],&quot;t&quot;:43.5,&quot;s&quot;:[-19.9],&quot;e&quot;:[0]},{&quot;t&quot;:49.19921875}]},&quot;p&quot;:{&quot;k&quot;:[{&quot;i&quot;:{&quot;x&quot;:0.833,&quot;y&quot;:0.833},&quot;o&quot;:{&quot;x&quot;:0.167,&quot;y&quot;:0.167},&quot;n&quot;:&quot;0p833_0p833_0p167_0p167&quot;,&quot;t&quot;:-10.801,&quot;s&quot;:[-96.734,47.401,0],&quot;e&quot;:[-31.369,31.877,0],&quot;to&quot;:[45.0456504821777,-41.7948608398438,0],&quot;ti&quot;:[-17.7793006896973,-2.18895292282104,0]},{&quot;i&quot;:{&quot;x&quot;:0.833,&quot;y&quot;:0.833},&quot;o&quot;:{&quot;x&quot;:0.167,&quot;y&quot;:0.167},&quot;n&quot;:&quot;0p833_0p833_0p167_0p167&quot;,&quot;t&quot;:4,&quot;s&quot;:[-31.369,31.877,0],&quot;e&quot;:[9.942,60.534,0],&quot;to&quot;:[17.7793006896973,2.18895292282104,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0.833,&quot;y&quot;:0.833},&quot;o&quot;:{&quot;x&quot;:0.167,&quot;y&quot;:0.167},&quot;n&quot;:&quot;0p833_0p833_0p167_0p167&quot;,&quot;t&quot;:43.5,&quot;s&quot;:[9.942,60.534,0],&quot;e&quot;:[9.942,60.534,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;t&quot;:49.19921875}]},&quot;a&quot;:{&quot;k&quot;:[60,60,0]},&quot;s&quot;:{&quot;k&quot;:[36.267,36.267,100]}},&quot;ao&quot;:0,&quot;sw&quot;:120,&quot;sh&quot;:120,&quot;sc&quot;:&quot;#ffffff&quot;,&quot;ip&quot;:0,&quot;op&quot;:564,&quot;st&quot;:-18,&quot;bm&quot;:0,&quot;sr&quot;:1},{&quot;ddd&quot;:0,&quot;ind&quot;:1,&quot;ty&quot;:4,&quot;nm&quot;:&quot;W1&quot;,&quot;parent&quot;:10,&quot;ks&quot;:{&quot;o&quot;:{&quot;k&quot;:[{&quot;t&quot;:0,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:312,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:352,&quot;s&quot;:[0],&quot;h&quot;:1}]},&quot;r&quot;:{&quot;k&quot;:0},&quot;p&quot;:{&quot;k&quot;:[70.893,91.979,0]},&quot;a&quot;:{&quot;k&quot;:[0,0,0]},&quot;s&quot;:{&quot;k&quot;:[73.529,73.529,100]}},&quot;ao&quot;:0,&quot;shapes&quot;:[{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[0,0],[0,0]],&quot;o&quot;:[[0,0],[0,0]],&quot;v&quot;:[[22.833,-107],[43.833,-107]],&quot;c&quot;:false}},&quot;nm&quot;:&quot;Path 2&quot;},{&quot;ty&quot;:&quot;st&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[0.34,0.35,0.36,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;w&quot;:{&quot;k&quot;:5},&quot;lc&quot;:2,&quot;lj&quot;:1,&quot;ml&quot;:4,&quot;nm&quot;:&quot;Stroke 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Shape 1&quot;}],&quot;ip&quot;:312,&quot;op&quot;:354,&quot;st&quot;:-18,&quot;bm&quot;:0,&quot;sr&quot;:1},{&quot;ddd&quot;:0,&quot;ind&quot;:2,&quot;ty&quot;:4,&quot;nm&quot;:&quot;W2&quot;,&quot;parent&quot;:5,&quot;ks&quot;:{&quot;o&quot;:{&quot;k&quot;:[{&quot;t&quot;:0,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:312,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:352,&quot;s&quot;:[0],&quot;h&quot;:1}]},&quot;r&quot;:{&quot;k&quot;:0},&quot;p&quot;:{&quot;k&quot;:[70.893,35.572,0]},&quot;a&quot;:{&quot;k&quot;:[70.893,35.572,0]},&quot;s&quot;:{&quot;k&quot;:[100,100,100]}},&quot;ao&quot;:0,&quot;shapes&quot;:[{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[0,2.439],[0,0],[-2.439,0],[0,0],[0,-2.44],[0,0],[2.439,0],[0,0]],&quot;o&quot;:[[0,0],[0,-2.44],[0,0],[2.439,0],[0,0],[0,2.439],[0,0],[-2.439,0]],&quot;v&quot;:[[-4.462,0.044],[-4.462,-0.045],[-0.045,-4.462],[0.045,-4.462],[4.462,-0.045],[4.462,0.044],[0.045,4.462],[-0.045,4.462]],&quot;c&quot;:true}},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[0.34,0.35,0.36,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[41.978,13.371],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 9&quot;},{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[0.34,0.35,0.36,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[91.684,13.371],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 11&quot;}],&quot;ip&quot;:312,&quot;op&quot;:354,&quot;st&quot;:-18,&quot;bm&quot;:0,&quot;sr&quot;:1},{&quot;ddd&quot;:0,&quot;ind&quot;:3,&quot;ty&quot;:4,&quot;nm&quot;:&quot;W3&quot;,&quot;parent&quot;:10,&quot;ks&quot;:{&quot;o&quot;:{&quot;k&quot;:[{&quot;t&quot;:0,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:312,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:352,&quot;s&quot;:[0],&quot;h&quot;:1}]},&quot;r&quot;:{&quot;k&quot;:0},&quot;p&quot;:{&quot;k&quot;:[70.893,35.572,0]},&quot;a&quot;:{&quot;k&quot;:[70.893,35.572,0]},&quot;s&quot;:{&quot;k&quot;:[100,100,100]}},&quot;ao&quot;:0,&quot;shapes&quot;:[{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[-2.439,0],[0,0],[0,2.439],[0,0],[2.439,0],[0,0],[0,-2.44],[0,0]],&quot;o&quot;:[[0,0],[2.439,0],[0,0],[0,-2.44],[0,0],[-2.439,0],[0,0],[0,2.439]],&quot;v&quot;:[[-4.107,4.461],[4.107,4.461],[8.524,0.044],[8.524,-0.044],[4.107,-4.461],[-4.107,-4.461],[-8.524,-0.044],[-8.524,0.044]],&quot;c&quot;:true}},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[1,0.96,0.91,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[46.04,13.371],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 10&quot;},{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[1,0.96,0.91,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[95.746,13.371],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 12&quot;}],&quot;ip&quot;:312,&quot;op&quot;:354,&quot;st&quot;:-18,&quot;bm&quot;:0,&quot;sr&quot;:1},{&quot;ddd&quot;:0,&quot;ind&quot;:4,&quot;ty&quot;:4,&quot;nm&quot;:&quot;B&quot;,&quot;parent&quot;:10,&quot;ks&quot;:{&quot;o&quot;:{&quot;k&quot;:[{&quot;t&quot;:0,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:80.4,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:128.4,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:140,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:152,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:163.199,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:236,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:247.199,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:423.602,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:434.801,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:462.801,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:474,&quot;s&quot;:[0],&quot;h&quot;:1}]},&quot;r&quot;:{&quot;k&quot;:0},&quot;p&quot;:{&quot;k&quot;:[70.893,91.979,0]},&quot;a&quot;:{&quot;k&quot;:[0,0,0]},&quot;s&quot;:{&quot;k&quot;:[73.529,73.529,100]}},&quot;ao&quot;:0,&quot;shapes&quot;:[{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[0,0],[0,0]],&quot;o&quot;:[[0,0],[0,0]],&quot;v&quot;:[[-44,-107],[-23,-107]],&quot;c&quot;:false}},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ind&quot;:1,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[0,0],[0,0]],&quot;o&quot;:[[0,0],[0,0]],&quot;v&quot;:[[22.833,-107],[43.833,-107]],&quot;c&quot;:false}},&quot;nm&quot;:&quot;Path 2&quot;},{&quot;ty&quot;:&quot;st&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[0.34,0.35,0.36,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;w&quot;:{&quot;k&quot;:5},&quot;lc&quot;:2,&quot;lj&quot;:1,&quot;ml&quot;:4,&quot;nm&quot;:&quot;Stroke 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Shape 1&quot;}],&quot;ip&quot;:0,&quot;op&quot;:564,&quot;st&quot;:-18,&quot;bm&quot;:0,&quot;sr&quot;:1},{&quot;ddd&quot;:0,&quot;ind&quot;:5,&quot;ty&quot;:4,&quot;nm&quot;:&quot;E2&quot;,&quot;parent&quot;:10,&quot;ks&quot;:{&quot;o&quot;:{&quot;k&quot;:[{&quot;t&quot;:0,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:80.4,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:128.4,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:140,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:152,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:163.199,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:236,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:247.199,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:312,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:352,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:423.602,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:434.801,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:462.801,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:474,&quot;s&quot;:[100],&quot;h&quot;:1}]},&quot;r&quot;:{&quot;k&quot;:0},&quot;p&quot;:{&quot;k&quot;:[{&quot;i&quot;:{&quot;x&quot;:0.833,&quot;y&quot;:0.833},&quot;o&quot;:{&quot;x&quot;:0.167,&quot;y&quot;:0.167},&quot;n&quot;:&quot;0p833_0p833_0p167_0p167&quot;,&quot;t&quot;:84,&quot;s&quot;:[75.228,35.572,0],&quot;e&quot;:[75.228,35.572,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;t&quot;:104,&quot;s&quot;:[75.228,35.572,0],&quot;h&quot;:1},{&quot;t&quot;:156,&quot;s&quot;:[74.598,35.572,0],&quot;h&quot;:1},{&quot;t&quot;:190,&quot;s&quot;:[75.333,35.572,0],&quot;h&quot;:1},{&quot;t&quot;:228,&quot;s&quot;:[75.228,35.572,0],&quot;h&quot;:1},{&quot;t&quot;:312,&quot;s&quot;:[75.333,35.572,0],&quot;h&quot;:1}]},&quot;a&quot;:{&quot;k&quot;:[70.893,35.572,0]},&quot;s&quot;:{&quot;k&quot;:[100,100,100]}},&quot;ao&quot;:0,&quot;shapes&quot;:[{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[0,2.439],[0,0],[-2.439,0],[0,0],[0,-2.44],[0,0],[2.439,0],[0,0]],&quot;o&quot;:[[0,0],[0,-2.44],[0,0],[2.439,0],[0,0],[0,2.439],[0,0],[-2.439,0]],&quot;v&quot;:[[-4.462,0.044],[-4.462,-0.045],[-0.045,-4.462],[0.045,-4.462],[4.462,-0.045],[4.462,0.044],[0.045,4.462],[-0.045,4.462]],&quot;c&quot;:true}},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[0.34,0.35,0.36,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[41.978,13.371],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 9&quot;},{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[0,2.439],[0,0],[-2.439,0],[0,0],[0,-2.44],[0,0],[2.439,0],[0,0]],&quot;o&quot;:[[0,0],[0,-2.44],[0,0],[2.439,0],[0,0],[0,2.439],[0,0],[-2.439,0]],&quot;v&quot;:[[-4.462,0.044],[-4.462,-0.045],[-0.045,-4.462],[0.045,-4.462],[4.462,-0.045],[4.462,0.044],[0.045,4.462],[-0.045,4.462]],&quot;c&quot;:true}},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[0.34,0.35,0.36,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[91.684,13.371],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 11&quot;}],&quot;ip&quot;:80,&quot;op&quot;:564,&quot;st&quot;:-18,&quot;bm&quot;:0,&quot;sr&quot;:1},{&quot;ddd&quot;:0,&quot;ind&quot;:6,&quot;ty&quot;:4,&quot;nm&quot;:&quot;E1&quot;,&quot;parent&quot;:10,&quot;ks&quot;:{&quot;o&quot;:{&quot;k&quot;:[{&quot;t&quot;:0,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:80.4,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:128.4,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:140,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:152,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:163.199,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:236,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:247.199,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:312,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:352,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:423.602,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:434.801,&quot;s&quot;:[100],&quot;h&quot;:1},{&quot;t&quot;:462.801,&quot;s&quot;:[0],&quot;h&quot;:1},{&quot;t&quot;:474,&quot;s&quot;:[100],&quot;h&quot;:1}]},&quot;r&quot;:{&quot;k&quot;:0},&quot;p&quot;:{&quot;k&quot;:[70.893,35.572,0]},&quot;a&quot;:{&quot;k&quot;:[70.893,35.572,0]},&quot;s&quot;:{&quot;k&quot;:[100,100,100]}},&quot;ao&quot;:0,&quot;shapes&quot;:[{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[-2.439,0],[0,0],[0,2.439],[0,0],[2.439,0],[0,0],[0,-2.44],[0,0]],&quot;o&quot;:[[0,0],[2.439,0],[0,0],[0,-2.44],[0,0],[-2.439,0],[0,0],[0,2.439]],&quot;v&quot;:[[-4.107,4.461],[4.107,4.461],[8.524,0.044],[8.524,-0.044],[4.107,-4.461],[-4.107,-4.461],[-8.524,-0.044],[-8.524,0.044]],&quot;c&quot;:true}},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[1,0.96,0.91,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[46.04,13.371],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 10&quot;},{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[-2.439,0],[0,0],[0,2.439],[0,0],[2.439,0],[0,0],[0,-2.44],[0,0]],&quot;o&quot;:[[0,0],[2.439,0],[0,0],[0,-2.44],[0,0],[-2.439,0],[0,0],[0,2.439]],&quot;v&quot;:[[-4.107,4.461],[4.107,4.461],[8.524,0.044],[8.524,-0.044],[4.107,-4.461],[-4.107,-4.461],[-8.524,-0.044],[-8.524,0.044]],&quot;c&quot;:true}},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[1,0.96,0.91,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[95.746,13.371],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 12&quot;}],&quot;ip&quot;:80,&quot;op&quot;:564,&quot;st&quot;:-18,&quot;bm&quot;:0,&quot;sr&quot;:1},{&quot;ddd&quot;:0,&quot;ind&quot;:7,&quot;ty&quot;:4,&quot;nm&quot;:&quot;S&quot;,&quot;parent&quot;:10,&quot;ks&quot;:{&quot;o&quot;:{&quot;k&quot;:100},&quot;r&quot;:{&quot;k&quot;:0},&quot;p&quot;:{&quot;k&quot;:[70.893,35.572,0]},&quot;a&quot;:{&quot;k&quot;:[70.893,35.572,0]},&quot;s&quot;:{&quot;k&quot;:[100,100,100]}},&quot;ao&quot;:0,&quot;shapes&quot;:[{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[0.867,0.132],[1.362,-0.67],[0,0],[-0.516,-1.05],[-1.369,0.661],[0,0],[-0.733,1.322]],&quot;o&quot;:[[-1.494,-0.227],[0,0],[-1.357,0.68],[0.516,1.049],[0,0],[1.363,-0.67],[0.425,-0.767]],&quot;v&quot;:[[2.323,-2.694],[-2.067,-2.018],[-2.119,-1.993],[-3.149,1.155],[-0.026,2.259],[0.024,2.236],[3.24,-0.828]],&quot;c&quot;:true}},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[0.34,0.35,0.36,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[26.093,21.583],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 1&quot;},{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[0.865,-0.144],[1.087,-1.06],[0,0],[-0.817,-0.837],[-1.096,1.053],[0,0],[-0.286,1.484]],&quot;o&quot;:[[-1.491,0.249],[0,0],[-1.079,1.068],[0.816,0.837],[0,0],[1.087,-1.06],[0.166,-0.861]],&quot;v&quot;:[[1.733,-3.174],[-2.23,-1.167],[-2.271,-1.128],[-2.272,2.184],[1.04,2.264],[1.08,2.225],[3.184,-1.686]],&quot;c&quot;:true}},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[0.34,0.35,0.36,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[39.598,38.412],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 2&quot;},{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[0.65,-0.589],[0.342,-1.48],[0,0],[-1.139,-0.263],[-0.353,1.479],[0,0],[0.562,1.403]],&quot;o&quot;:[[-1.12,1.015],[0,0],[-0.33,1.481],[1.139,0.262],[0,0],[0.342,-1.479],[-0.326,-0.814]],&quot;v&quot;:[[-0.059,-3.173],[-2.309,0.657],[-2.322,0.713],[-0.532,3.5],[2.298,1.776],[2.31,1.722],[1.966,-2.706]],&quot;c&quot;:true}},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[0.34,0.35,0.36,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[59.443,47.861],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 3&quot;},{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[1.357,0.68],[0,0],[1.494,-0.228],[-0.425,-0.766],[-1.363,-0.67],[0,0],[-0.516,1.05]],&quot;o&quot;:[[0,0],[-1.363,-0.669],[-0.867,0.131],[0.733,1.322],[0,0],[1.369,0.66],[0.516,-1.049]],&quot;v&quot;:[[2.119,-1.993],[2.067,-2.018],[-2.323,-2.693],[-3.24,-0.829],[-0.024,2.236],[0.026,2.26],[3.149,1.154]],&quot;c&quot;:true}},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[0.34,0.35,0.36,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[115.693,21.583],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 4&quot;},{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[0,0],[1.491,0.249],[-0.165,-0.861],[-1.087,-1.06],[0,0],[-0.816,0.837],[1.079,1.067]],&quot;o&quot;:[[-1.087,-1.06],[-0.865,-0.144],[0.286,1.484],[0,0],[1.096,1.053],[0.817,-0.837],[0,0]],&quot;v&quot;:[[2.23,-1.168],[-1.734,-3.174],[-3.184,-1.686],[-1.081,2.227],[-1.041,2.265],[2.271,2.185],[2.27,-1.127]],&quot;c&quot;:true}},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[0.34,0.35,0.36,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[102.188,38.411],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 5&quot;},{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[0,0],[1.12,1.015],[0.326,-0.813],[-0.341,-1.48],[0,0],[-1.139,0.263],[0.33,1.481]],&quot;o&quot;:[[-0.341,-1.479],[-0.649,-0.588],[-0.562,1.403],[0,0],[0.353,1.478],[1.14,-0.263],[0,0]],&quot;v&quot;:[[2.309,0.656],[0.059,-3.174],[-1.967,-2.707],[-2.311,1.722],[-2.299,1.776],[0.532,3.499],[2.321,0.713]],&quot;c&quot;:true}},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[0.34,0.35,0.36,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[82.343,47.862],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 6&quot;}],&quot;ip&quot;:0,&quot;op&quot;:564,&quot;st&quot;:-18,&quot;bm&quot;:0,&quot;sr&quot;:1},{&quot;ddd&quot;:0,&quot;ind&quot;:8,&quot;ty&quot;:4,&quot;nm&quot;:&quot;MthCl&quot;,&quot;parent&quot;:10,&quot;ks&quot;:{&quot;o&quot;:{&quot;k&quot;:100},&quot;r&quot;:{&quot;k&quot;:0},&quot;p&quot;:{&quot;k&quot;:[70.893,91.987,0]},&quot;a&quot;:{&quot;k&quot;:[0,0,0]},&quot;s&quot;:{&quot;k&quot;:[73.529,73.557,100]}},&quot;ao&quot;:0,&quot;shapes&quot;:[{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[0,0],[-7.875,0],[-2.958,1.25]],&quot;o&quot;:[[2.875,1.25],[7.875,0],[0,0]],&quot;v&quot;:[[-16.625,-88.125],[0.125,-84.375],[16.625,-88.125]],&quot;c&quot;:false}},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;st&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[0.34,0.35,0.36,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;w&quot;:{&quot;k&quot;:4},&quot;lc&quot;:2,&quot;lj&quot;:1,&quot;ml&quot;:4,&quot;nm&quot;:&quot;Stroke 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Shape 1&quot;}],&quot;ip&quot;:0,&quot;op&quot;:120,&quot;st&quot;:-136,&quot;bm&quot;:0,&quot;sr&quot;:1},{&quot;ddd&quot;:0,&quot;ind&quot;:9,&quot;ty&quot;:4,&quot;nm&quot;:&quot;Mth&quot;,&quot;parent&quot;:10,&quot;ks&quot;:{&quot;o&quot;:{&quot;k&quot;:100},&quot;r&quot;:{&quot;k&quot;:0},&quot;p&quot;:{&quot;k&quot;:[70.893,35.572,0]},&quot;a&quot;:{&quot;k&quot;:[70.893,35.572,0]},&quot;s&quot;:{&quot;k&quot;:[100,100,100]}},&quot;ao&quot;:0,&quot;shapes&quot;:[{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:[{&quot;i&quot;:{&quot;x&quot;:0,&quot;y&quot;:1},&quot;o&quot;:{&quot;x&quot;:0.167,&quot;y&quot;:0.167},&quot;n&quot;:&quot;0_1_0p167_0p167&quot;,&quot;t&quot;:118,&quot;s&quot;:[{&quot;i&quot;:[[3.739,0],[2.667,0.395],[-0.491,-0.159],[-0.019,-0.006],[-0.522,-0.156],[-0.081,-0.024],[-0.228,-0.066],[-0.141,-0.04],[-0.13,-0.036],[-0.171,-0.047],[-0.109,-0.029],[-0.256,-0.067],[-0.098,-0.025],[-0.268,-0.005],[-0.041,-0.001],[-0.317,-0.003],[-0.082,-0.001],[-0.332,0],[-0.259,0.002],[-0.088,0.001],[-0.168,0.002],[-0.103,0.001],[-0.148,0.003],[-0.105,0.025],[-0.133,0.032],[-0.108,0.026],[-0.125,0.031],[-0.108,0.027],[-0.117,0.03],[-0.109,0.028],[-0.105,0.027],[-0.114,0.03],[-0.054,0.015],[-0.283,0.079],[-0.054,0.015],[-0.131,0.038],[-0.062,0.018],[-0.124,0.037],[-0.06,0.018],[-0.12,0.037],[-0.053,0.016],[-0.117,0.037],[-0.046,0.015],[-0.117,0.038],[-0.032,0.011],[-0.118,0.04]],&quot;o&quot;:[[-3.74,0],[0.418,0.15],[0.019,0.006],[0.465,0.151],[0.079,0.024],[0.218,0.065],[0.137,0.039],[0.127,0.036],[0.166,0.046],[0.107,0.029],[0.249,0.067],[0.097,0.025],[0.255,0.066],[0.041,0.001],[0.31,0.005],[0.082,0.001],[0.326,0.003],[0.263,0],[0.088,-0.001],[0.17,-0.001],[0.104,-0.001],[0.15,-0.002],[0.109,-0.002],[0.135,-0.032],[0.109,-0.026],[0.127,-0.031],[0.11,-0.027],[0.118,-0.03],[0.111,-0.029],[0.107,-0.028],[0.116,-0.031],[0.055,-0.015],[0.297,-0.08],[0.055,-0.015],[0.134,-0.038],[0.063,-0.018],[0.127,-0.037],[0.061,-0.018],[0.124,-0.037],[0.054,-0.016],[0.122,-0.038],[0.047,-0.015],[0.121,-0.039],[0.033,-0.011],[0.125,-0.041],[-2.673,0.353]],&quot;v&quot;:[[-0.002,-1.882],[-9.593,-3.102],[-8.227,-2.636],[-8.171,-2.618],[-6.689,-2.158],[-6.45,-2.087],[-5.78,-1.891],[-5.366,-1.773],[-4.98,-1.665],[-4.475,-1.526],[-4.151,-1.438],[-3.392,-1.236],[-3.099,-1.16],[-2.301,-1.093],[-2.178,-1.091],[-1.236,-1.079],[-0.989,-1.077],[-0.003,-1.073],[0.78,-1.075],[1.043,-1.077],[1.551,-1.082],[1.86,-1.086],[2.308,-1.094],[2.771,-1.086],[3.173,-1.183],[3.498,-1.262],[3.877,-1.356],[4.204,-1.438],[4.556,-1.527],[4.889,-1.613],[5.205,-1.695],[5.552,-1.787],[5.714,-1.831],[6.583,-2.069],[6.749,-2.115],[7.145,-2.228],[7.333,-2.282],[7.709,-2.392],[7.891,-2.446],[8.257,-2.557],[8.418,-2.607],[8.777,-2.719],[8.915,-2.763],[9.272,-2.878],[9.37,-2.911],[9.737,-3.034]],&quot;c&quot;:true}],&quot;e&quot;:[{&quot;i&quot;:[[3.739,0],[2.687,-2.206],[-0.514,-0.438],[-0.02,-0.016],[-0.544,-0.336],[-0.084,-0.048],[-0.237,-0.12],[-0.146,-0.067],[-0.135,-0.057],[-0.177,-0.066],[-0.113,-0.038],[-0.265,-0.072],[-0.101,-0.025],[-0.268,-0.048],[-0.041,-0.007],[-0.317,-0.03],[-0.082,-0.006],[-0.332,0],[-0.259,0.016],[-0.088,0.007],[-0.168,0.02],[-0.103,0.015],[-0.148,0.027],[-0.108,0.022],[-0.137,0.033],[-0.111,0.03],[-0.129,0.039],[-0.111,0.037],[-0.121,0.044],[-0.113,0.046],[-0.108,0.047],[-0.118,0.055],[-0.056,0.027],[-0.293,0.172],[-0.056,0.035],[-0.136,0.09],[-0.064,0.045],[-0.129,0.096],[-0.062,0.048],[-0.125,0.105],[-0.055,0.048],[-0.122,0.115],[-0.048,0.046],[-0.122,0.126],[-0.034,0.036],[-0.124,0.145]],&quot;o&quot;:[[-3.74,0],[0.441,0.511],[0.02,0.016],[0.487,0.41],[0.082,0.051],[0.227,0.134],[0.142,0.073],[0.132,0.062],[0.172,0.073],[0.111,0.041],[0.258,0.088],[0.1,0.027],[0.263,0.064],[0.041,0.008],[0.31,0.052],[0.082,0.007],[0.326,0.025],[0.263,0],[0.088,-0.005],[0.17,-0.013],[0.104,-0.012],[0.15,-0.022],[0.109,-0.02],[0.139,-0.029],[0.112,-0.027],[0.131,-0.035],[0.113,-0.034],[0.122,-0.041],[0.115,-0.043],[0.11,-0.044],[0.12,-0.052],[0.057,-0.027],[0.307,-0.15],[0.057,-0.034],[0.139,-0.085],[0.065,-0.043],[0.132,-0.091],[0.063,-0.047],[0.129,-0.1],[0.056,-0.047],[0.127,-0.109],[0.049,-0.045],[0.126,-0.121],[0.035,-0.037],[0.131,-0.139],[-2.687,-2.204]],&quot;v&quot;:[[0.002,-4.034],[-9.858,-0.499],[-8.423,0.927],[-8.363,0.976],[-6.815,2.095],[-6.567,2.243],[-5.87,2.624],[-5.44,2.836],[-5.039,3.012],[-4.516,3.219],[-4.18,3.342],[-3.395,3.58],[-3.093,3.657],[-2.298,3.827],[-2.174,3.852],[-1.232,3.972],[-0.986,3.992],[0.001,4.034],[0.784,4.009],[1.047,3.987],[1.555,3.939],[1.864,3.896],[2.312,3.825],[2.637,3.761],[3.051,3.668],[3.385,3.583],[3.775,3.47],[4.113,3.364],[4.476,3.235],[4.82,3.105],[5.146,2.966],[5.505,2.809],[5.672,2.725],[6.572,2.242],[6.743,2.142],[7.155,1.877],[7.349,1.748],[7.741,1.466],[7.93,1.325],[8.31,1.018],[8.478,0.875],[8.853,0.54],[8.997,0.403],[9.37,0.034],[9.474,-0.077],[9.858,-0.501]],&quot;c&quot;:true}]},{&quot;t&quot;:134}]},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[1,0.67,0.57,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[70.892,31.078],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 7&quot;},{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:[{&quot;i&quot;:{&quot;x&quot;:0,&quot;y&quot;:1},&quot;o&quot;:{&quot;x&quot;:0.167,&quot;y&quot;:0.167},&quot;n&quot;:&quot;0_1_0p167_0p167&quot;,&quot;t&quot;:118,&quot;s&quot;:[{&quot;i&quot;:[[1.658,-0.941],[3.513,1.319],[-0.426,-0.278],[-1.88,-0.611],[0.419,0.15],[-3.74,0],[-2.673,0.353],[0.125,-0.041],[-0.359,0.134],[0.008,-0.002],[-0.011,0.003],[-0.351,0.222]],&quot;o&quot;:[[-8.469,3.434],[-1.789,-0.668],[0.626,0.41],[-0.491,-0.159],[2.668,0.395],[3.738,0],[-0.119,0.041],[0.435,-0.144],[-0.008,0.002],[0.011,-0.003],[0.77,-0.288],[0.429,-0.271]],&quot;v&quot;:[[9.611,0.159],[-9.453,0.093],[-12.119,-0.173],[-8.227,1.401],[-9.594,0.936],[-0.002,2.156],[9.737,1.004],[9.37,1.127],[10.566,0.708],[10.542,0.714],[10.575,0.706],[12.281,-0.066]],&quot;c&quot;:true}],&quot;e&quot;:[{&quot;i&quot;:[[1.802,0],[0,0],[-0.478,-1.738],[-1.97,-1.674],[0.442,0.512],[-3.74,0],[-2.687,-2.205],[0.131,-0.139],[-0.379,0.549],[0.008,-0.003],[-0.011,0.004],[-0.39,1.418]],&quot;o&quot;:[[0,0],[-1.802,0],[0.703,2.561],[-0.514,-0.438],[2.688,-2.205],[3.738,0],[-0.125,0.144],[0.456,-0.484],[-0.008,0.003],[0.011,-0.005],[0.814,-1.182],[0.477,-1.738]],&quot;v&quot;:[[9.915,-4.964],[-9.913,-4.964],[-12.57,-1.512],[-8.422,4.964],[-9.859,3.538],[0.002,0.005],[9.858,3.536],[9.474,3.96],[10.732,2.411],[10.707,2.42],[10.741,2.408],[12.572,-1.512]],&quot;c&quot;:true}]},{&quot;t&quot;:134}]},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[0.34,0.35,0.36,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[70.893,27.04],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 8&quot;}],&quot;ip&quot;:120,&quot;op&quot;:564,&quot;st&quot;:-136,&quot;bm&quot;:0,&quot;sr&quot;:1},{&quot;ddd&quot;:0,&quot;ind&quot;:10,&quot;ty&quot;:4,&quot;nm&quot;:&quot;Bdy&quot;,&quot;parent&quot;:11,&quot;ks&quot;:{&quot;o&quot;:{&quot;k&quot;:100},&quot;r&quot;:{&quot;k&quot;:[{&quot;i&quot;:{&quot;x&quot;:[0.22],&quot;y&quot;:[1]},&quot;o&quot;:{&quot;x&quot;:[0.167],&quot;y&quot;:[0]},&quot;n&quot;:[&quot;0p22_1_0p167_0&quot;],&quot;t&quot;:288,&quot;s&quot;:[0],&quot;e&quot;:[-2.4]},{&quot;i&quot;:{&quot;x&quot;:[0],&quot;y&quot;:[1]},&quot;o&quot;:{&quot;x&quot;:[0.333],&quot;y&quot;:[0]},&quot;n&quot;:[&quot;0_1_0p333_0&quot;],&quot;t&quot;:306,&quot;s&quot;:[-2.4],&quot;e&quot;:[7.9]},{&quot;i&quot;:{&quot;x&quot;:[0.667],&quot;y&quot;:[0.667]},&quot;o&quot;:{&quot;x&quot;:[0.333],&quot;y&quot;:[0.333]},&quot;n&quot;:[&quot;0p667_0p667_0p333_0p333&quot;],&quot;t&quot;:328,&quot;s&quot;:[7.9],&quot;e&quot;:[7.9]},{&quot;i&quot;:{&quot;x&quot;:[0.494],&quot;y&quot;:[1]},&quot;o&quot;:{&quot;x&quot;:[0.604],&quot;y&quot;:[0]},&quot;n&quot;:[&quot;0p494_1_0p604_0&quot;],&quot;t&quot;:342,&quot;s&quot;:[7.9],&quot;e&quot;:[-2.6]},{&quot;i&quot;:{&quot;x&quot;:[0.379],&quot;y&quot;:[1]},&quot;o&quot;:{&quot;x&quot;:[0.571],&quot;y&quot;:[0]},&quot;n&quot;:[&quot;0p379_1_0p571_0&quot;],&quot;t&quot;:362,&quot;s&quot;:[-2.6],&quot;e&quot;:[0]},{&quot;t&quot;:384}]},&quot;p&quot;:{&quot;k&quot;:[{&quot;i&quot;:{&quot;x&quot;:0.833,&quot;y&quot;:0.833},&quot;o&quot;:{&quot;x&quot;:0.167,&quot;y&quot;:0.167},&quot;n&quot;:&quot;0p833_0p833_0p167_0p167&quot;,&quot;t&quot;:49.199,&quot;s&quot;:[130.6,60,0],&quot;e&quot;:[115.364,60,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0.833,&quot;y&quot;:0.833},&quot;o&quot;:{&quot;x&quot;:0.167,&quot;y&quot;:0.167},&quot;n&quot;:&quot;0p833_0p833_0p167_0p167&quot;,&quot;t&quot;:52.156,&quot;s&quot;:[115.364,60,0],&quot;e&quot;:[97.194,60,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0.833,&quot;y&quot;:0.833},&quot;o&quot;:{&quot;x&quot;:0.167,&quot;y&quot;:0.167},&quot;n&quot;:&quot;0p833_0p833_0p167_0p167&quot;,&quot;t&quot;:56.582,&quot;s&quot;:[97.194,60,0],&quot;e&quot;:[87.163,60,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0.833,&quot;y&quot;:0.833},&quot;o&quot;:{&quot;x&quot;:0.167,&quot;y&quot;:0.167},&quot;n&quot;:&quot;0p833_0p833_0p167_0p167&quot;,&quot;t&quot;:59.539,&quot;s&quot;:[87.163,60,0],&quot;e&quot;:[60,60,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0,&quot;y&quot;:1},&quot;o&quot;:{&quot;x&quot;:0.167,&quot;y&quot;:0.167},&quot;n&quot;:&quot;0_1_0p167_0p167&quot;,&quot;t&quot;:68.4,&quot;s&quot;:[60,60,0],&quot;e&quot;:[51.3,60,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0.667,&quot;y&quot;:1},&quot;o&quot;:{&quot;x&quot;:0.486,&quot;y&quot;:0},&quot;n&quot;:&quot;0p667_1_0p486_0&quot;,&quot;t&quot;:82.801,&quot;s&quot;:[51.3,60,0],&quot;e&quot;:[66.902,60,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0.667,&quot;y&quot;:1},&quot;o&quot;:{&quot;x&quot;:0.333,&quot;y&quot;:0},&quot;n&quot;:&quot;0p667_1_0p333_0&quot;,&quot;t&quot;:118.801,&quot;s&quot;:[66.902,60,0],&quot;e&quot;:[60,60,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0.833,&quot;y&quot;:0.833},&quot;o&quot;:{&quot;x&quot;:0.333,&quot;y&quot;:0.333},&quot;n&quot;:&quot;0p833_0p833_0p333_0p333&quot;,&quot;t&quot;:152.4,&quot;s&quot;:[60,60,0],&quot;e&quot;:[60,60,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0,&quot;y&quot;:0},&quot;o&quot;:{&quot;x&quot;:0.167,&quot;y&quot;:0.167},&quot;n&quot;:&quot;0_0_0p167_0p167&quot;,&quot;t&quot;:193.199,&quot;s&quot;:[60,60,0],&quot;e&quot;:[60,60,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0.833,&quot;y&quot;:0.833},&quot;o&quot;:{&quot;x&quot;:0.59,&quot;y&quot;:0.59},&quot;n&quot;:&quot;0p833_0p833_0p59_0p59&quot;,&quot;t&quot;:200.4,&quot;s&quot;:[60,60,0],&quot;e&quot;:[60,60,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0,&quot;y&quot;:1},&quot;o&quot;:{&quot;x&quot;:0.167,&quot;y&quot;:0.167},&quot;n&quot;:&quot;0_1_0p167_0p167&quot;,&quot;t&quot;:202.801,&quot;s&quot;:[60,60,0],&quot;e&quot;:[60,37.941,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0.833,&quot;y&quot;:0.833},&quot;o&quot;:{&quot;x&quot;:1,&quot;y&quot;:0},&quot;n&quot;:&quot;0p833_0p833_1_0&quot;,&quot;t&quot;:212.4,&quot;s&quot;:[60,37.941,0],&quot;e&quot;:[60,60,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0,&quot;y&quot;:0},&quot;o&quot;:{&quot;x&quot;:0.167,&quot;y&quot;:0.167},&quot;n&quot;:&quot;0_0_0p167_0p167&quot;,&quot;t&quot;:224.4,&quot;s&quot;:[60,60,0],&quot;e&quot;:[60,60,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0,&quot;y&quot;:0},&quot;o&quot;:{&quot;x&quot;:1,&quot;y&quot;:1},&quot;n&quot;:&quot;0_0_1_1&quot;,&quot;t&quot;:229.199,&quot;s&quot;:[60,60,0],&quot;e&quot;:[60,60,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;t&quot;:238.80078125}]},&quot;a&quot;:{&quot;k&quot;:[70.893,70.893,0]},&quot;s&quot;:{&quot;k&quot;:[{&quot;i&quot;:{&quot;x&quot;:[0,0,0],&quot;y&quot;:[0,1,0]},&quot;o&quot;:{&quot;x&quot;:[0.167,0.167,0.167],&quot;y&quot;:[0.167,0.167,0.167]},&quot;n&quot;:[&quot;0_0_0p167_0p167&quot;,&quot;0_1_0p167_0p167&quot;,&quot;0_0_0p167_0p167&quot;],&quot;t&quot;:193.199,&quot;s&quot;:[100,100,100],&quot;e&quot;:[100,90,100]},{&quot;i&quot;:{&quot;x&quot;:[0.833,0.833,0.833],&quot;y&quot;:[0.833,0.833,0.833]},&quot;o&quot;:{&quot;x&quot;:[0.59,0.59,0.59],&quot;y&quot;:[0.59,0,0.59]},&quot;n&quot;:[&quot;0p833_0p833_0p59_0p59&quot;,&quot;0p833_0p833_0p59_0&quot;,&quot;0p833_0p833_0p59_0p59&quot;],&quot;t&quot;:200.4,&quot;s&quot;:[100,90,100],&quot;e&quot;:[100,107.3,100]},{&quot;i&quot;:{&quot;x&quot;:[0,0,0],&quot;y&quot;:[0,1,0]},&quot;o&quot;:{&quot;x&quot;:[0.167,0.167,0.167],&quot;y&quot;:[0.167,0.167,0.167]},&quot;n&quot;:[&quot;0_0_0p167_0p167&quot;,&quot;0_1_0p167_0p167&quot;,&quot;0_0_0p167_0p167&quot;],&quot;t&quot;:202.801,&quot;s&quot;:[100,107.3,100],&quot;e&quot;:[100,100,100]},{&quot;i&quot;:{&quot;x&quot;:[0.833,0.833,0.833],&quot;y&quot;:[0.833,0.833,0.833]},&quot;o&quot;:{&quot;x&quot;:[1,1,1],&quot;y&quot;:[1,0,1]},&quot;n&quot;:[&quot;0p833_0p833_1_1&quot;,&quot;0p833_0p833_1_0&quot;,&quot;0p833_0p833_1_1&quot;],&quot;t&quot;:212.4,&quot;s&quot;:[100,100,100],&quot;e&quot;:[100,103,100]},{&quot;i&quot;:{&quot;x&quot;:[0,0,0],&quot;y&quot;:[0,1,0]},&quot;o&quot;:{&quot;x&quot;:[0.167,0.167,0.167],&quot;y&quot;:[0.167,0.167,0.167]},&quot;n&quot;:[&quot;0_0_0p167_0p167&quot;,&quot;0_1_0p167_0p167&quot;,&quot;0_0_0p167_0p167&quot;],&quot;t&quot;:224.4,&quot;s&quot;:[100,103,100],&quot;e&quot;:[100,85.4,100]},{&quot;i&quot;:{&quot;x&quot;:[0,0,0],&quot;y&quot;:[0,1,0]},&quot;o&quot;:{&quot;x&quot;:[1,1,1],&quot;y&quot;:[1,0,1]},&quot;n&quot;:[&quot;0_0_1_1&quot;,&quot;0_1_1_0&quot;,&quot;0_0_1_1&quot;],&quot;t&quot;:229.199,&quot;s&quot;:[100,85.4,100],&quot;e&quot;:[100,100,100]},{&quot;t&quot;:238.80078125}]}},&quot;ao&quot;:0,&quot;shapes&quot;:[{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[0,0],[34.278,0],[0,34.278]],&quot;o&quot;:[[0,34.278],[-34.277,0],[0,0]],&quot;v&quot;:[[62.065,-31.033],[0,31.033],[-62.065,-31.033]],&quot;c&quot;:true}},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[1,0.35,0.37,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[70.893,31.283],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 13&quot;},{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[0,0],[-13.343,-13.342],[-18.869,0],[-13.343,13.343],[0,18.87]],&quot;o&quot;:[[0,18.87],[13.343,13.343],[18.869,0],[13.343,-13.342],[0,0]],&quot;v&quot;:[[-70.643,-35.322],[-49.952,14.631],[0,35.322],[49.952,14.631],[70.643,-35.322]],&quot;c&quot;:true}},&quot;nm&quot;:&quot;Path 1&quot;},{&quot;ty&quot;:&quot;fl&quot;,&quot;fillEnabled&quot;:true,&quot;c&quot;:{&quot;k&quot;:[0.55,0.88,0.44,1]},&quot;o&quot;:{&quot;k&quot;:100},&quot;nm&quot;:&quot;Fill 1&quot;},{&quot;ty&quot;:&quot;tr&quot;,&quot;p&quot;:{&quot;k&quot;:[70.893,35.572],&quot;ix&quot;:2},&quot;a&quot;:{&quot;k&quot;:[0,0],&quot;ix&quot;:1},&quot;s&quot;:{&quot;k&quot;:[100,100],&quot;ix&quot;:3},&quot;r&quot;:{&quot;k&quot;:0,&quot;ix&quot;:6},&quot;o&quot;:{&quot;k&quot;:100,&quot;ix&quot;:7},&quot;sk&quot;:{&quot;k&quot;:0,&quot;ix&quot;:4},&quot;sa&quot;:{&quot;k&quot;:0,&quot;ix&quot;:5},&quot;nm&quot;:&quot;Transform&quot;}],&quot;nm&quot;:&quot;Group 14&quot;}],&quot;ip&quot;:0,&quot;op&quot;:564,&quot;st&quot;:-18,&quot;bm&quot;:0,&quot;sr&quot;:1},{&quot;ddd&quot;:0,&quot;ind&quot;:11,&quot;ty&quot;:3,&quot;nm&quot;:&quot;NULL CONTROL&quot;,&quot;parent&quot;:0,&quot;ks&quot;:{&quot;o&quot;:{&quot;k&quot;:0},&quot;r&quot;:{&quot;k&quot;:[{&quot;i&quot;:{&quot;x&quot;:[0.833],&quot;y&quot;:[0.833]},&quot;o&quot;:{&quot;x&quot;:[0.167],&quot;y&quot;:[0.167]},&quot;n&quot;:[&quot;0p833_0p833_0p167_0p167&quot;],&quot;t&quot;:49.199,&quot;s&quot;:[-90],&quot;e&quot;:[0]},{&quot;i&quot;:{&quot;x&quot;:[0],&quot;y&quot;:[1]},&quot;o&quot;:{&quot;x&quot;:[0.167],&quot;y&quot;:[0.167]},&quot;n&quot;:[&quot;0_1_0p167_0p167&quot;],&quot;t&quot;:68.4,&quot;s&quot;:[0],&quot;e&quot;:[12]},{&quot;i&quot;:{&quot;x&quot;:[0.667],&quot;y&quot;:[1]},&quot;o&quot;:{&quot;x&quot;:[0.486],&quot;y&quot;:[0]},&quot;n&quot;:[&quot;0p667_1_0p486_0&quot;],&quot;t&quot;:82.801,&quot;s&quot;:[12],&quot;e&quot;:[-10.982]},{&quot;i&quot;:{&quot;x&quot;:[0.667],&quot;y&quot;:[1]},&quot;o&quot;:{&quot;x&quot;:[0.333],&quot;y&quot;:[0]},&quot;n&quot;:[&quot;0p667_1_0p333_0&quot;],&quot;t&quot;:118.801,&quot;s&quot;:[-10.982],&quot;e&quot;:[0]},{&quot;t&quot;:152.400390625}]},&quot;p&quot;:{&quot;k&quot;:[{&quot;i&quot;:{&quot;x&quot;:0.833,&quot;y&quot;:0.833},&quot;o&quot;:{&quot;x&quot;:0.167,&quot;y&quot;:0.167},&quot;n&quot;:&quot;0p833_0p833_0p167_0p167&quot;,&quot;t&quot;:49.199,&quot;s&quot;:[130.455,59.867,0],&quot;e&quot;:[170.455,59.867,0],&quot;to&quot;:[4.71404361724854,0,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0,&quot;y&quot;:1},&quot;o&quot;:{&quot;x&quot;:0.167,&quot;y&quot;:0.167},&quot;n&quot;:&quot;0_1_0p167_0p167&quot;,&quot;t&quot;:68.4,&quot;s&quot;:[170.455,59.867,0],&quot;e&quot;:[178.433,59.867,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0.667,&quot;y&quot;:1},&quot;o&quot;:{&quot;x&quot;:0.486,&quot;y&quot;:0},&quot;n&quot;:&quot;0p667_1_0p486_0&quot;,&quot;t&quot;:82.801,&quot;s&quot;:[178.433,59.867,0],&quot;e&quot;:[166.471,59.867,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;i&quot;:{&quot;x&quot;:0.667,&quot;y&quot;:1},&quot;o&quot;:{&quot;x&quot;:0.333,&quot;y&quot;:0},&quot;n&quot;:&quot;0p667_1_0p333_0&quot;,&quot;t&quot;:118.801,&quot;s&quot;:[166.471,59.867,0],&quot;e&quot;:[170.455,59.867,0],&quot;to&quot;:[0,0,0],&quot;ti&quot;:[0,0,0]},{&quot;t&quot;:152.400390625}]},&quot;a&quot;:{&quot;k&quot;:[60,60,0]},&quot;s&quot;:{&quot;k&quot;:[100,100,100]}},&quot;ao&quot;:0,&quot;ip&quot;:0,&quot;op&quot;:564,&quot;st&quot;:-18,&quot;bm&quot;:0,&quot;sr&quot;:1}],&quot;v&quot;:&quot;4.4.26&quot;,&quot;ddd&quot;:0,&quot;ip&quot;:0,&quot;op&quot;:563,&quot;fr&quot;:60,&quot;w&quot;:100,&quot;h&quot;:100}</td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 color-bg-primary border color-border-tertiary rounded-1" aria-label="Inline file action toolbar">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+    <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+</svg>
+    </summary>
+    <details-menu>
+
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se ml-2 mt-2"
+      style="width:185px"
+      >
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;">
+            Copy lines
+          </clipboard-copy>
+        </li>
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;">
+            Copy permalink
+          </clipboard-copy>
+        </li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/airbnb/lottie-ios/blame/409cc3071f0c6c91cfd34f345f5eeb1dae9a5fc4/Example/lottie-swift/TestAnimations/Watermelon.json">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/airbnb/lottie-ios/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
+  </div>
+
+    </div>
+
+
+  
+
+  <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog">
+    <summary data-hotkey="l" aria-label="Jump to line"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump" aria-label="Jump to line">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" action="" accept-charset="UTF-8" method="get">
+        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+        <button data-close-dialog="" type="submit" data-view-component="true" class="btn">
+  
+  Go
+  
+
+</button>
+</form>    </details-dialog>
+  </details>
+
+
+</div>
+
+
+
+  </div>
+</div>
+
+    </main>
+  </div>
+
+  </div>
+
+          
+<div class="footer container-xl width-full p-responsive" role="contentinfo">
+  <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 color-text-secondary border-top color-border-secondary ">
+    <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+      <li class="mr-3 mr-lg-0">&copy; 2021 GitHub, Inc.</li>
+        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-terms-of-service" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="53d560d246a9b3a60d8c965a8db277d2509aab4b8dc0fc1e17e9e19394a2ecec">Terms</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-privacy-statement" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e3c778cfaccc7b58b35a5256560337f795c8d1d8f9344b57c38ec478401814f4">Privacy</a></li>
+        <li class="mr-3 mr-lg-0"><a data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6a7aaa0d85c3966c8a72ee6adda0a063683b801aee3158ce92e0efb429a5486f" href="https://github.com/security">Security</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://www.githubstatus.com/" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="bfcd6b0c149693b6eed2380726ce9735b595eea8ca0e3e237feb288738125f34">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:Docs" href="https://docs.github.com">Docs</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com">
+      <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true" class="octicon octicon-mark-github">
+    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+</svg>
+</a>
+    <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+        <li class="mr-3 mr-lg-0"><a href="https://support.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1b73df7e1a401b599db152ce00b10e8db92846bcbe3936cf2579e8a99df774c0">Contact GitHub</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="048f44e8a3cf74c9357ad0af215975fa28558b81999adf9374f19037af87fbec">Pricing</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://docs.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1e4313045d556a6e16675e379f4935fd3d4bf2711b8e7b4e3adef093f675bef8">API</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://services.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f9026705d51fa183b82c7dcd60dae0645296c15a2a70afe6ccb9ee786b7935b6">Training</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;,&quot;originating_url&quot;:&quot;https://github.com/airbnb/lottie-ios/blob/master/Example/lottie-swift/TestAnimations/Watermelon.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5afdb15871b67fad9910aae96910dadbf590ec3cfd291203cee8dae3033ccf4a">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 color-text-tertiary"></span>
+  </div>
+
+  
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden>
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
+    >
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+    <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+    <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default color-text-primary hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+    <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+    <template id="snippet-clipboard-copy-button">
+  <div class="zeroclipboard-container position-absolute right-0 top-0">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-paste js-clipboard-clippy-icon m-2">
+    <path fill-rule="evenodd" d="M5.75 1a.75.75 0 00-.75.75v3c0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75v-3a.75.75 0 00-.75-.75h-4.5zm.75 3V2.5h3V4h-3zm-2.874-.467a.75.75 0 00-.752-1.298A1.75 1.75 0 002 3.75v9.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 13.25v-9.5a1.75 1.75 0 00-.874-1.515.75.75 0 10-.752 1.298.25.25 0 01.126.217v9.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-9.5a.25.25 0 01.126-.217z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-text-success d-none m-2">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+    </clipboard-copy>
+  </div>
+</template>
+
+
+
+
+  </body>
+</html>
+

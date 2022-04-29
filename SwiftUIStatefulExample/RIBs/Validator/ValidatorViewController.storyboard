@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Validator View Controller-->
+        <scene sceneID="GzV-lN-fg7">
+            <objects>
+                <viewController storyboardIdentifier="ValidatorViewController" id="vKn-9P-Ny8" customClass="ValidatorViewController" customModule="StatefulScreenExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BNZ-bO-rhc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mBx-gv-A3q">
+                                <rect key="frame" x="16" y="292" width="382" height="46"/>
+                                <color key="backgroundColor" red="0.96861571069999997" green="0.96862143280000002" blue="0.96863609549999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.3763062358" green="0.72863394020000005" blue="0.34109976889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="PMT-hO-bCg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Неверный код" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y2V-zF-yOW">
+                                <rect key="frame" x="16" y="346" width="382" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Номер телефона" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8A-JC-NJ8">
+                                <rect key="frame" x="16" y="258" width="382" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="r6d-6H-WwK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.3763062358" green="0.72863394020000005" blue="0.34109976889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Введите код из смс, отправленного на номер" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcx-dM-xYk">
+                                <rect key="frame" x="16" y="233" width="382" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="yLr-0P-7Bp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Введите код" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rn8-aF-4zF">
+                                <rect key="frame" x="16" y="193" width="382" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="3Iy-rs-FGO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HgA-Aw-ocO"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="E8A-JC-NJ8" firstAttribute="leading" secondItem="HgA-Aw-ocO" secondAttribute="leading" constant="16" id="EJr-0F-DSy"/>
+                            <constraint firstItem="HgA-Aw-ocO" firstAttribute="trailing" secondItem="mBx-gv-A3q" secondAttribute="trailing" constant="16" id="HiK-mY-dIO"/>
+                            <constraint firstItem="y2V-zF-yOW" firstAttribute="leading" secondItem="HgA-Aw-ocO" secondAttribute="leading" constant="16" id="MIG-zg-mbi"/>
+                            <constraint firstItem="HgA-Aw-ocO" firstAttribute="trailing" secondItem="tcx-dM-xYk" secondAttribute="trailing" constant="16" id="QA1-fl-Z1T"/>
+                            <constraint firstItem="HgA-Aw-ocO" firstAttribute="trailing" secondItem="rn8-aF-4zF" secondAttribute="trailing" constant="16" id="SnY-RC-UhJ"/>
+                            <constraint firstItem="y2V-zF-yOW" firstAttribute="top" secondItem="mBx-gv-A3q" secondAttribute="bottom" constant="8" id="TX4-Dh-yyA"/>
+                            <constraint firstItem="tcx-dM-xYk" firstAttribute="leading" secondItem="HgA-Aw-ocO" secondAttribute="leading" constant="16" id="VT6-g4-WtP"/>
+                            <constraint firstItem="E8A-JC-NJ8" firstAttribute="top" secondItem="tcx-dM-xYk" secondAttribute="bottom" constant="7" id="ZLk-xR-s8l"/>
+                            <constraint firstItem="HgA-Aw-ocO" firstAttribute="trailing" secondItem="E8A-JC-NJ8" secondAttribute="trailing" constant="16" id="Zxn-5H-Bn1"/>
+                            <constraint firstItem="rn8-aF-4zF" firstAttribute="leading" secondItem="HgA-Aw-ocO" secondAttribute="leading" constant="16" id="dL6-x5-PLs"/>
+                            <constraint firstItem="HgA-Aw-ocO" firstAttribute="trailing" secondItem="y2V-zF-yOW" secondAttribute="trailing" constant="16" id="ibB-SN-laL"/>
+                            <constraint firstItem="mBx-gv-A3q" firstAttribute="leading" secondItem="HgA-Aw-ocO" secondAttribute="leading" constant="16" id="owh-Gu-kRq"/>
+                            <constraint firstItem="rn8-aF-4zF" firstAttribute="top" secondItem="HgA-Aw-ocO" secondAttribute="top" constant="105" id="pC8-Li-fUF"/>
+                            <constraint firstItem="mBx-gv-A3q" firstAttribute="top" secondItem="E8A-JC-NJ8" secondAttribute="bottom" constant="16" id="sP0-7f-mxO"/>
+                            <constraint firstItem="tcx-dM-xYk" firstAttribute="top" secondItem="rn8-aF-4zF" secondAttribute="bottom" constant="12" id="ymj-HH-j3t"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="codeErrorLabel" destination="y2V-zF-yOW" id="DRZ-pD-LKb"/>
+                        <outlet property="codeTextField" destination="mBx-gv-A3q" id="BwB-94-Xfl"/>
+                        <outlet property="networkErrorLabel" destination="tcx-dM-xYk" id="rmR-9f-8cX"/>
+                        <outlet property="phoneNumberLabel" destination="E8A-JC-NJ8" id="Rat-U4-XNj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k0X-am-vwV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243.47826086956525" y="204.91071428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
